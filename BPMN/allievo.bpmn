@@ -170,7 +170,7 @@
       <bpmn:incoming>Flow_1b9qekx</bpmn:incoming>
       <bpmn:outgoing>Flow_0xyx6d1</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:endEvent id="Event_049crwf">
+    <bpmn:endEvent id="Event_049crwf" name="Corso terminato">
       <bpmn:incoming>Flow_0xyx6d1</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:intermediateCatchEvent id="Event_1b82ycu" name="Conferma di pagamento ricevuta">
@@ -421,6 +421,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_049crwf_di" bpmnElement="Event_049crwf">
         <dc:Bounds x="3942" y="362" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3921" y="405" width="79" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1b82ycu_di" bpmnElement="Event_1b82ycu">
         <dc:Bounds x="3552" y="362" width="36" height="36" />

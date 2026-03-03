@@ -189,7 +189,7 @@
       <bpmn:incoming>Flow_11fjlui</bpmn:incoming>
       <bpmn:outgoing>Flow_1u5fig3</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:endEvent id="Event_08eomqx">
+    <bpmn:endEvent id="Event_08eomqx" name="Corso terminato">
       <bpmn:incoming>Flow_10gid1p</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:intermediateCatchEvent id="Event_12nvk4h" name="Controproposta ricevuta">
@@ -306,12 +306,12 @@
         <dc:Bounds x="160" y="80" width="3625" height="860" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1eqs0m9_di" bpmnElement="Lane_1eqs0m9" isHorizontal="true">
-        <dc:Bounds x="190" y="479" width="3595" height="461" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_0ny61n1_di" bpmnElement="Lane_0ny61n1" isHorizontal="true">
         <dc:Bounds x="190" y="80" width="3595" height="399" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1eqs0m9_di" bpmnElement="Lane_1eqs0m9" isHorizontal="true">
+        <dc:Bounds x="190" y="479" width="3595" height="461" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1w9gmky_di" bpmnElement="Event_1w9gmky">
@@ -450,6 +450,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_08eomqx_di" bpmnElement="Event_08eomqx">
         <dc:Bounds x="3692" y="302" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3671" y="345" width="79" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_12nvk4h_di" bpmnElement="Event_12nvk4h">
         <dc:Bounds x="1202" y="702" width="36" height="36" />

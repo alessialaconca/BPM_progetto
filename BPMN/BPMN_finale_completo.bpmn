@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="9b0b274" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="80a5306" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
   <bpmn:collaboration id="Collaboration_191zdlg">
     <bpmn:participant id="Participant_14u90ti" name="Allievo" processRef="Process_11q0avs" />
     <bpmn:participant id="Participant_02e172a" name="Scuola di pittura" processRef="Process_03toz92" />
@@ -193,7 +193,7 @@
       <bpmn:incoming>Flow_1b9qekx</bpmn:incoming>
       <bpmn:outgoing>Flow_0xyx6d1</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:endEvent id="Event_049crwf">
+    <bpmn:endEvent id="Event_049crwf" name="Corso terminato">
       <bpmn:incoming>Flow_0xyx6d1</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:intermediateCatchEvent id="Event_1b82ycu" name="Conferma di pagamento ricevuta">
@@ -471,7 +471,7 @@
       <bpmn:incoming>Flow_11fjlui</bpmn:incoming>
       <bpmn:outgoing>Flow_1u5fig3</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:endEvent id="Event_08eomqx">
+    <bpmn:endEvent id="Event_08eomqx" name="Corso terminato">
       <bpmn:incoming>Flow_10gid1p</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1e9d9sr" sourceRef="Gateway_186w3sv" targetRef="Event_1w9gmky" />
@@ -741,6 +741,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_049crwf_di" bpmnElement="Event_049crwf">
         <dc:Bounds x="3942" y="362" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3921" y="405" width="79" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1b82ycu_di" bpmnElement="Event_1b82ycu">
         <dc:Bounds x="3552" y="362" width="36" height="36" />
@@ -1165,6 +1168,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_08eomqx_di" bpmnElement="Event_08eomqx">
         <dc:Bounds x="3692" y="962" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3671" y="1005" width="79" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_12nvk4h_di" bpmnElement="Event_12nvk4h">
         <dc:Bounds x="1202" y="1362" width="36" height="36" />
@@ -1422,13 +1428,13 @@
           <dc:Bounds x="2552" y="1263" width="15" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="DataInputAssociation_0cussjd_di" bpmnElement="DataInputAssociation_0cussjd">
-        <di:waypoint x="1590" y="1335" />
-        <di:waypoint x="1590" y="1271" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataInputAssociation_113oqch_di" bpmnElement="DataInputAssociation_113oqch">
         <di:waypoint x="520" y="985" />
         <di:waypoint x="520" y="940" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_0cussjd_di" bpmnElement="DataInputAssociation_0cussjd">
+        <di:waypoint x="1590" y="1335" />
+        <di:waypoint x="1590" y="1271" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_043vaxw_di" bpmnElement="Flow_043vaxw">
         <di:waypoint x="740" y="288" />
