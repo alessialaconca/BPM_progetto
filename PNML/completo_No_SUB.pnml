@@ -5,25 +5,25 @@ Manual editing may break compatibility.-->
   <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="">
     <place id="Activity_1u0bbs5_middle_join">
       <name>
-        <text>ricevi istruzioni Choosing</text>
+        <text>Riceve istruzioni Choosing</text>
         <graphics>
-          <offset x="2750" y="1090"/>
+          <offset x="1160" y="2900"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2750" y="1050"/>
+        <position x="1120" y="2900"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0rhvaqi_end_split">
       <name>
-        <text>accetta controproposta Chosen</text>
+        <text>Conferma lezione comunicata Chosen</text>
         <graphics>
-          <offset x="7550" y="460"/>
+          <offset x="530" y="7700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7550" y="420"/>
+        <position x="490" y="7700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -31,11 +31,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4100" y="950"/>
+          <offset x="1090" y="4100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4100" y="910"/>
+        <position x="1050" y="4100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -43,11 +43,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="650" y="1720"/>
+          <offset x="1650" y="650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="650" y="1680"/>
+        <position x="1610" y="650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -55,11 +55,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6950" y="110"/>
+          <offset x="110" y="7100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6950" y="70"/>
+        <position x="70" y="7100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -67,23 +67,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="1100" y="1650"/>
+          <offset x="1580" y="1100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1100" y="1610"/>
+        <position x="1540" y="1100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0cn6sik_end_split">
       <name>
-        <text>invia controproposta Chosen</text>
+        <text>Invia controproposta Chosen</text>
         <graphics>
-          <offset x="7550" y="250"/>
+          <offset x="600" y="7700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7550" y="210"/>
+        <position x="560" y="7700"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Event_1rtrjx6_end_split">
+      <name>
+        <text>Conferma lezione comunicata Chosen</text>
+        <graphics>
+          <offset x="1650" y="1850"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1610" y="1850"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -91,23 +103,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="1250" y="460"/>
+          <offset x="530" y="1250"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1250" y="420"/>
+        <position x="490" y="1250"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1p8yhr5_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Richiesta lezione aggiuntiva ricevuta Choosing</text>
         <graphics>
-          <offset x="6650" y="180"/>
+          <offset x="530" y="6800"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6650" y="140"/>
+        <position x="490" y="6800"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -115,38 +127,23 @@ Manual editing may break compatibility.-->
       <name>
         <text>Riceve contatto allievo Choosing</text>
         <graphics>
-          <offset x="1550" y="1650"/>
+          <offset x="1510" y="2000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1550" y="1610"/>
+        <position x="1470" y="2000"/>
         <dimension x="40" y="40"/>
       </graphics>
-    </place>
-    <place id="start_p_Process_11q0avs">
-      <name>
-        <text>Start</text>
-        <graphics>
-          <offset x="50" y="1230"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="50" y="1190"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>1</text>
-      </initialMarking>
     </place>
     <place id="Gateway_11z6sy1">
       <name>
-        <text/>
+        <text>Accetta controproposta studente?</text>
         <graphics>
-          <offset x="7400" y="320"/>
+          <offset x="530" y="7550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7400" y="280"/>
+        <position x="490" y="7550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -154,23 +151,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="200" y="1230"/>
+          <offset x="1160" y="200"/>
         </graphics>
       </name>
       <graphics>
-        <position x="200" y="1190"/>
+        <position x="1120" y="200"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Gateway_1cl23yv">
+      <name>
+        <text>Proposta del maestro accettata?</text>
+        <graphics>
+          <offset x="1650" y="1700"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1610" y="1700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1y2vy6k_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Attesa inizio lezione Choosing</text>
         <graphics>
-          <offset x="8150" y="110"/>
+          <offset x="250" y="8300"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8150" y="70"/>
+        <position x="210" y="8300"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -178,47 +187,47 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4850" y="670"/>
+          <offset x="1020" y="4850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4850" y="630"/>
+        <position x="980" y="4850"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="end_p_Process_dea13ux">
+      <name>
+        <text>End</text>
+        <graphics>
+          <offset x="250" y="6950"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="210" y="6950"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1a6sfnr_middle_join">
       <name>
-        <text>riceve nuove istruzioni Choosing</text>
+        <text>Consigli ricevuti Choosing</text>
         <graphics>
-          <offset x="3950" y="1160"/>
+          <offset x="1020" y="3950"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3950" y="1120"/>
+        <position x="980" y="3950"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
-    <place id="Flow_0guhfjm">
+    <place id="Flow_0srnyxf">
       <name>
         <text/>
         <graphics>
-          <offset x="6200" y="670"/>
+          <offset x="1580" y="1700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6200" y="630"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="end_p_Process_11q0avs">
-      <name>
-        <text>End</text>
-        <graphics>
-          <offset x="6650" y="390"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="6650" y="350"/>
+        <position x="1540" y="1700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -226,23 +235,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2150" y="1090"/>
+          <offset x="1020" y="2300"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2150" y="1050"/>
+        <position x="980" y="2300"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1lpe25r_middle_join">
       <name>
-        <text>riceve conferma Choosing</text>
+        <text>Conferma lezione ricevuta Choosing</text>
         <graphics>
-          <offset x="7400" y="390"/>
+          <offset x="810" y="7550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7400" y="350"/>
+        <position x="770" y="7550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -250,11 +259,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="8000" y="250"/>
+          <offset x="320" y="8150"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8000" y="210"/>
+        <position x="280" y="8150"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -262,23 +271,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3800" y="1160"/>
+          <offset x="1090" y="3800"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3800" y="1120"/>
+        <position x="1050" y="3800"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0hp09um_end_split">
       <name>
-        <text>Chosen</text>
+        <text>Comunicazione di fine lezione inviata Chosen</text>
         <graphics>
-          <offset x="4400" y="670"/>
+          <offset x="1020" y="4400"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4400" y="630"/>
+        <position x="980" y="4400"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -286,11 +295,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6500" y="740"/>
+          <offset x="390" y="6650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6500" y="700"/>
+        <position x="350" y="6650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -298,11 +307,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5600" y="600"/>
+          <offset x="460" y="5600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5600" y="560"/>
+        <position x="420" y="5600"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -310,11 +319,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3500" y="1300"/>
+          <offset x="1020" y="3500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3500" y="1260"/>
+        <position x="980" y="3500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -322,11 +331,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5600" y="460"/>
+          <offset x="530" y="5600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5600" y="420"/>
+        <position x="490" y="5600"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_1vjxnxw">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1580" y="1250"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1250"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -334,47 +355,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5450" y="880"/>
+          <offset x="460" y="5450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5450" y="840"/>
+        <position x="420" y="5450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1ybbxwj_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Comunicazione fine lezione ricevuta Choosing</text>
         <graphics>
-          <offset x="4700" y="530"/>
+          <offset x="1090" y="4700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4700" y="490"/>
+        <position x="1050" y="4700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0s5nr53_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Comunicazione nuovo esercizio ricevuta Choosing</text>
         <graphics>
-          <offset x="4700" y="810"/>
+          <offset x="740" y="4700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4700" y="770"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Activity_1x1n5no_end_split">
-      <name>
-        <text>non ha capito Chosen</text>
-        <graphics>
-          <offset x="3200" y="1230"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3200" y="1190"/>
+        <position x="700" y="4700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -382,11 +391,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4550" y="810"/>
+          <offset x="740" y="4550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4550" y="770"/>
+        <position x="700" y="4550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -394,11 +403,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5450" y="810"/>
+          <offset x="1020" y="5450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5450" y="770"/>
+        <position x="980" y="5450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -406,47 +415,36 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="8300" y="110"/>
+          <offset x="250" y="8450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8300" y="70"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Flow_1hevcvh">
-      <name>
-        <text/>
-        <graphics>
-          <offset x="3350" y="1230"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3350" y="1190"/>
+        <position x="210" y="8450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1ub2s5j_middle_join">
       <name>
-        <text>ricevuta conferma controproposta Choosing</text>
+        <text>Conferma controproposta
+ricevuta Choosing</text>
         <graphics>
-          <offset x="1850" y="1230"/>
+          <offset x="180" y="8000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1850" y="1190"/>
+        <position x="140" y="8000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
-    <place id="Gateway_1cl23yv_j">
+    <place id="Activity_1xlz0ep_end_split">
       <name>
-        <text/>
+        <text>Prepara schizzo e bozza disegno Chosen</text>
         <graphics>
-          <offset x="1400" y="1370"/>
+          <offset x="1230" y="3350"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1400" y="1330"/>
+        <position x="1190" y="3350"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -454,83 +452,83 @@ Manual editing may break compatibility.-->
       <name>
         <text>Invia proposta data e luogo Choosing</text>
         <graphics>
-          <offset x="6950" y="250"/>
+          <offset x="390" y="7100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6950" y="210"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Gateway_1cl23yv_s">
-      <name>
-        <text/>
-        <graphics>
-          <offset x="1550" y="1720"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1550" y="1680"/>
+        <position x="350" y="7100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0cn6sik_middle_join">
       <name>
-        <text>invia controproposta Choosing</text>
+        <text>Invia controproposta Choosing</text>
         <graphics>
-          <offset x="7700" y="250"/>
+          <offset x="180" y="7850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7700" y="210"/>
+        <position x="140" y="7850"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_09bep5j_middle_join">
       <name>
-        <text>invia la scelta del corso Choosing</text>
+        <text>Scelta del corso comunicata Choosing</text>
         <graphics>
-          <offset x="1100" y="460"/>
+          <offset x="530" y="1100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1100" y="420"/>
+        <position x="490" y="1100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1sbqw47_middle_join">
       <name>
-        <text>allievo rifiuta Choosing</text>
+        <text>Rifiuto scelta bozza ricevuto Choosing</text>
         <graphics>
-          <offset x="5600" y="530"/>
+          <offset x="670" y="5600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5600" y="490"/>
+        <position x="630" y="5600"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Activity_08uuzr1_end_split">
+      <name>
+        <text>Richiede consigli Chosen</text>
+        <graphics>
+          <offset x="1300" y="3350"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1260" y="3350"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0hp09um_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Comunicazione di fine lezione inviata Choosing</text>
         <graphics>
-          <offset x="4550" y="670"/>
+          <offset x="810" y="4550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4550" y="630"/>
+        <position x="770" y="4550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1rtrjx6_middle_join">
       <name>
-        <text>invia conferma a maestro Choosing</text>
+        <text>Conferma lezione comunicata Choosing</text>
         <graphics>
-          <offset x="1700" y="1300"/>
+          <offset x="1230" y="2000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1700" y="1260"/>
+        <position x="1190" y="2000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -538,35 +536,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4700" y="600"/>
+          <offset x="810" y="4700"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4700" y="560"/>
+        <position x="770" y="4700"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Gateway_12r0crx">
       <name>
-        <text/>
+        <text>Desidera continuare le lezioni?</text>
         <graphics>
-          <offset x="6200" y="460"/>
+          <offset x="390" y="6350"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6200" y="420"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Activity_11ud7z5_end_split">
-      <name>
-        <text>ha capito Chosen</text>
-        <graphics>
-          <offset x="3200" y="1160"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3200" y="1120"/>
+        <position x="350" y="6350"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -574,11 +560,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="500" y="1370"/>
+          <offset x="1370" y="500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="500" y="1330"/>
+        <position x="1330" y="500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -586,11 +572,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3500" y="1580"/>
+          <offset x="1300" y="3500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3500" y="1540"/>
+        <position x="1260" y="3500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -598,11 +584,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3950" y="1230"/>
+          <offset x="1370" y="3950"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3950" y="1190"/>
+        <position x="1330" y="3950"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -610,11 +596,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="950" y="1020"/>
+          <offset x="1020" y="950"/>
         </graphics>
       </name>
       <graphics>
-        <position x="950" y="980"/>
+        <position x="980" y="950"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -622,23 +608,24 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7100" y="250"/>
+          <offset x="390" y="7250"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7100" y="210"/>
+        <position x="350" y="7250"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1q35f80_end_split">
       <name>
-        <text>rifiuta proposta Chosen</text>
+        <text>Rifiuto 
+scelta bozza comunicato Chosen</text>
         <graphics>
-          <offset x="5300" y="670"/>
+          <offset x="740" y="5300"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5300" y="630"/>
+        <position x="700" y="5300"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -646,11 +633,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="1700" y="1860"/>
+          <offset x="1930" y="2000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1700" y="1820"/>
+        <position x="1890" y="2000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -658,59 +645,74 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="650" y="1020"/>
+          <offset x="1090" y="650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="650" y="980"/>
+        <position x="1050" y="650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_15bz246_end_split">
       <name>
-        <text>Chosen</text>
+        <text>Conferma
+ scelta bozza
+ comunicata Chosen</text>
         <graphics>
-          <offset x="5300" y="810"/>
+          <offset x="810" y="5300"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5300" y="770"/>
+        <position x="770" y="5300"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0ph540w_middle_join">
       <name>
-        <text>richede nuova lezione? Choosing</text>
+        <text>Invia richiesta lezione aggiuntiva Choosing</text>
         <graphics>
-          <offset x="6500" y="110"/>
+          <offset x="180" y="6650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6500" y="70"/>
+        <position x="140" y="6650"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_1com2t1">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="740" y="5600"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="700" y="5600"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0fgc5yp_middle_join">
       <name>
-        <text>Da istruzioni ad aliievo Choosing</text>
+        <text>Descrive  procedimento Choosing</text>
         <graphics>
-          <offset x="8450" y="110"/>
+          <offset x="110" y="8600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8450" y="70"/>
+        <position x="70" y="8600"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_1q35f80_middle_join">
       <name>
-        <text>rifiuta proposta Choosing</text>
+        <text>Rifiuto 
+scelta bozza comunicato Choosing</text>
         <graphics>
-          <offset x="5450" y="600"/>
+          <offset x="530" y="5450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5450" y="560"/>
+        <position x="490" y="5450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -718,11 +720,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="1700" y="1720"/>
+          <offset x="1370" y="2000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1700" y="1680"/>
+        <position x="1330" y="2000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -730,11 +732,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7250" y="460"/>
+          <offset x="740" y="7400"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7250" y="420"/>
+        <position x="700" y="7400"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -742,11 +744,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="8000" y="110"/>
+          <offset x="250" y="8150"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8000" y="70"/>
+        <position x="210" y="8150"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -754,11 +756,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="800" y="1020"/>
+          <offset x="1020" y="800"/>
         </graphics>
       </name>
       <graphics>
-        <position x="800" y="980"/>
+        <position x="980" y="800"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -766,23 +768,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7850" y="180"/>
+          <offset x="250" y="8000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7850" y="140"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Flow_1axlqga">
-      <name>
-        <text/>
-        <graphics>
-          <offset x="1400" y="1650"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1400" y="1610"/>
+        <position x="210" y="8000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -790,23 +780,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6500" y="460"/>
+          <offset x="670" y="6650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6500" y="420"/>
+        <position x="630" y="6650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Gateway_1vc0v7m">
       <name>
-        <text/>
+        <text>Accetta la proposta?</text>
         <graphics>
-          <offset x="5150" y="810"/>
+          <offset x="740" y="5150"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5150" y="770"/>
+        <position x="700" y="5150"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -814,11 +804,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3500" y="810"/>
+          <offset x="1230" y="3500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3500" y="770"/>
+        <position x="1190" y="3500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -826,23 +816,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3650" y="1160"/>
+          <offset x="1370" y="3650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3650" y="1120"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Flow_12dfa1r">
-      <name>
-        <text/>
-        <graphics>
-          <offset x="1250" y="1650"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1250" y="1610"/>
+        <position x="1330" y="3650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -850,11 +828,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4550" y="530"/>
+          <offset x="1090" y="4550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4550" y="490"/>
+        <position x="1050" y="4550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -862,23 +840,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2600" y="1090"/>
+          <offset x="1020" y="2750"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2600" y="1050"/>
+        <position x="980" y="2750"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0ph540w_end_split">
       <name>
-        <text>richede nuova lezione? Chosen</text>
+        <text>Invia richiesta lezione aggiuntiva Chosen</text>
         <graphics>
-          <offset x="6350" y="250"/>
+          <offset x="460" y="6500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6350" y="210"/>
+        <position x="420" y="6500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -886,11 +864,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="350" y="1090"/>
+          <offset x="1020" y="350"/>
         </graphics>
       </name>
       <graphics>
-        <position x="350" y="1050"/>
+        <position x="980" y="350"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -898,35 +876,72 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7700" y="180"/>
+          <offset x="390" y="7850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7700" y="140"/>
+        <position x="350" y="7850"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_0z82jt1">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1580" y="1400"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1400"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_1kwj7bi_middle_join">
       <name>
-        <text>nuovo esercizio Choosing</text>
+        <text>Comunica  nuovo esercizio Choosing</text>
         <graphics>
-          <offset x="4550" y="1650"/>
+          <offset x="1440" y="4550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4550" y="1610"/>
+        <position x="1400" y="4550"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_0atar75">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="390" y="6050"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="350" y="6050"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_1j1i4ik">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="460" y="6200"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="420" y="6200"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_02du4n2_end_split">
       <name>
-        <text>Comunica a scuola... Chosen</text>
+        <text>Comunica  decisione 
+di concludere corso Chosen</text>
         <graphics>
-          <offset x="6350" y="670"/>
+          <offset x="390" y="6500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6350" y="630"/>
+        <position x="350" y="6500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -934,11 +949,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="1700" y="1790"/>
+          <offset x="1720" y="2000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1700" y="1750"/>
+        <position x="1680" y="2000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -946,11 +961,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5900" y="530"/>
+          <offset x="390" y="5900"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5900" y="490"/>
+        <position x="350" y="5900"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -958,23 +973,23 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6800" y="180"/>
+          <offset x="390" y="6950"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6800" y="140"/>
+        <position x="350" y="6950"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
-    <place id="end_p_Process_03toz92">
+    <place id="Gateway_149buq4">
       <name>
-        <text>End</text>
+        <text/>
         <graphics>
-          <offset x="6800" y="320"/>
+          <offset x="1650" y="1550"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6800" y="280"/>
+        <position x="1610" y="1550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -982,11 +997,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6050" y="600"/>
+          <offset x="600" y="6050"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6050" y="560"/>
+        <position x="560" y="6050"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -994,23 +1009,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5000" y="810"/>
+          <offset x="880" y="5000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5000" y="770"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="Flow_0i1mfks">
-      <name>
-        <text/>
-        <graphics>
-          <offset x="5600" y="740"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5600" y="700"/>
+        <position x="840" y="5000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1018,23 +1021,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7700" y="320"/>
+          <offset x="880" y="7850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7700" y="280"/>
+        <position x="840" y="7850"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0rhvaqi_middle_join">
       <name>
-        <text>accetta controproposta Choosing</text>
+        <text>Conferma lezione comunicata Choosing</text>
         <graphics>
-          <offset x="7700" y="810"/>
+          <offset x="530" y="7850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7700" y="770"/>
+        <position x="490" y="7850"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Event_0lgmysm_middle_join">
+      <name>
+        <text>Proposta data e luogo ricevuta Choosing</text>
+        <graphics>
+          <offset x="1650" y="1400"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1610" y="1400"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1042,23 +1057,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2900" y="1090"/>
+          <offset x="1160" y="3050"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2900" y="1050"/>
+        <position x="1120" y="3050"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="end_p_Process_mwoaqip">
+      <name>
+        <text>End</text>
+        <graphics>
+          <offset x="180" y="6800"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="140" y="6800"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Event_0tg8v5m_middle_join">
       <name>
-        <text>Choosing</text>
+        <text>Attesa inizio lezione Choosing</text>
         <graphics>
-          <offset x="2450" y="1090"/>
+          <offset x="1020" y="2600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2450" y="1050"/>
+        <position x="980" y="2600"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1066,35 +1093,36 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2300" y="1090"/>
+          <offset x="1020" y="2450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2300" y="1050"/>
+        <position x="980" y="2450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Gateway_05htnr2">
       <name>
-        <text/>
+        <text>Si vuole terminare la lezione</text>
         <graphics>
-          <offset x="4250" y="950"/>
+          <offset x="1020" y="4250"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4250" y="910"/>
+        <position x="980" y="4250"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
-    <place id="Flow_1wwv0si">
+    <place id="Event_0egya30_middle_join">
       <name>
-        <text/>
+        <text>Nuova controproposta
+ricevuta Choosing</text>
         <graphics>
-          <offset x="6050" y="530"/>
+          <offset x="530" y="8000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6050" y="490"/>
+        <position x="490" y="8000"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1102,35 +1130,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5450" y="740"/>
+          <offset x="740" y="5450"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5450" y="700"/>
+        <position x="700" y="5450"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Gateway_1he3wnm">
       <name>
-        <text/>
+        <text>Sono presenti dubbi?</text>
         <graphics>
-          <offset x="3050" y="1160"/>
+          <offset x="1230" y="3200"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3050" y="1120"/>
+        <position x="1190" y="3200"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
-    <place id="Flow_17bpxu0">
+    <place id="Activity_1ldjw71_end_split">
       <name>
-        <text/>
+        <text>Invia controproposta Chosen</text>
         <graphics>
-          <offset x="3350" y="1160"/>
+          <offset x="1510" y="1850"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3350" y="1120"/>
+        <position x="1470" y="1850"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1138,11 +1166,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2000" y="1230"/>
+          <offset x="1230" y="2150"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2000" y="1190"/>
+        <position x="1190" y="2150"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1150,11 +1178,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6350" y="460"/>
+          <offset x="670" y="6200"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6350" y="420"/>
+        <position x="630" y="6200"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1162,11 +1190,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="350" y="1370"/>
+          <offset x="1370" y="350"/>
         </graphics>
       </name>
       <graphics>
-        <position x="350" y="1330"/>
+        <position x="1330" y="350"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1174,11 +1202,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5750" y="530"/>
+          <offset x="460" y="5750"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5750" y="490"/>
+        <position x="420" y="5750"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1186,11 +1214,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>End</text>
         <graphics>
-          <offset x="6950" y="180"/>
+          <offset x="180" y="7100"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6950" y="140"/>
+        <position x="140" y="7100"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1198,23 +1226,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5000" y="600"/>
+          <offset x="1020" y="5000"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5000" y="560"/>
+        <position x="980" y="5000"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_0vs2b80">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1580" y="1850"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1850"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_0udezmd_middle_join">
       <name>
-        <text>manda chiarimenti Choosing</text>
+        <text>Impartisce consigli Choosing</text>
         <graphics>
-          <offset x="3800" y="1230"/>
+          <offset x="1440" y="3800"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3800" y="1190"/>
+        <position x="1400" y="3800"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1222,11 +1262,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="3500" y="1230"/>
+          <offset x="1370" y="3500"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3500" y="1190"/>
+        <position x="1330" y="3500"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1234,23 +1274,38 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6650" y="320"/>
+          <offset x="250" y="6800"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6650" y="280"/>
+        <position x="210" y="6800"/>
         <dimension x="40" y="40"/>
       </graphics>
+    </place>
+    <place id="start_p_Process_mwoaqip">
+      <name>
+        <text>Start</text>
+        <graphics>
+          <offset x="1160" y="50"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1120" y="50"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
     </place>
     <place id="Flow_0u7rqdd">
       <name>
         <text/>
         <graphics>
-          <offset x="8450" y="180"/>
+          <offset x="250" y="8600"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8450" y="140"/>
+        <position x="210" y="8600"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1258,23 +1313,35 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="5900" y="600"/>
+          <offset x="600" y="5900"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5900" y="560"/>
+        <position x="560" y="5900"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
     <place id="Activity_1kwj7bi_end_split">
       <name>
-        <text>nuovo esercizio Chosen</text>
+        <text>Comunica  nuovo esercizio Chosen</text>
         <graphics>
-          <offset x="4400" y="1230"/>
+          <offset x="1090" y="4400"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4400" y="1190"/>
+        <position x="1050" y="4400"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_18okm4c">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1580" y="1550"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1550"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1282,11 +1349,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="6500" y="390"/>
+          <offset x="460" y="6650"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6500" y="350"/>
+        <position x="420" y="6650"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1294,11 +1361,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Invia richiesta informazioni</text>
         <graphics>
-          <offset x="280" y="1230"/>
+          <offset x="1160" y="280"/>
         </graphics>
       </name>
       <graphics>
-        <position x="275" y="1190"/>
+        <position x="1120" y="275"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1309,13 +1376,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1ub2s5j">
       <name>
-        <text>ricevuta conferma controproposta</text>
+        <text>Conferma controproposta
+ricevuta</text>
         <graphics>
-          <offset x="1780" y="1370"/>
+          <offset x="250" y="7930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1775" y="1330"/>
+        <position x="210" y="7925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1326,13 +1394,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0sl8su2">
       <name>
-        <text>riceve la richiesta</text>
+        <text>Richiesta informazioni ricevuta</text>
         <graphics>
-          <offset x="430" y="1370"/>
+          <offset x="1370" y="430"/>
         </graphics>
       </name>
       <graphics>
-        <position x="425" y="1330"/>
+        <position x="1330" y="425"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1343,13 +1411,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_08uuzr1">
       <name>
-        <text>richiede spiegazioni</text>
+        <text>Richiede consigli</text>
         <graphics>
-          <offset x="3430" y="1230"/>
+          <offset x="1300" y="3430"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3425" y="1190"/>
+        <position x="1260" y="3425"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1360,13 +1428,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1w9gmky">
       <name>
-        <text>allievo accetta</text>
+        <text>Conferma scelta bozza ricevuta</text>
         <graphics>
-          <offset x="5530" y="810"/>
+          <offset x="880" y="5530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5525" y="770"/>
+        <position x="840" y="5525"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1377,13 +1445,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0ph540w">
       <name>
-        <text>richede nuova lezione?</text>
+        <text>Invia richiesta lezione aggiuntiva</text>
         <graphics>
-          <offset x="6430" y="250"/>
+          <offset x="460" y="6580"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6425" y="210"/>
+        <position x="420" y="6575"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1394,13 +1462,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1q35f80_middle_split">
       <name>
-        <text>rifiuta proposta Choosing</text>
+        <text>Rifiuto 
+scelta bozza comunicato Choosing</text>
         <graphics>
-          <offset x="5230" y="670"/>
+          <offset x="740" y="5230"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5225" y="630"/>
+        <position x="700" y="5225"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1411,13 +1480,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1a6sfnr">
       <name>
-        <text>riceve nuove istruzioni</text>
+        <text>Consigli ricevuti</text>
         <graphics>
-          <offset x="3880" y="1160"/>
+          <offset x="1020" y="3880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3875" y="1120"/>
+        <position x="980" y="3875"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1428,13 +1497,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_08tp52s">
       <name>
-        <text>ricevuta richiesta chiarimenti</text>
+        <text>Riceve richiesta di consigli</text>
         <graphics>
-          <offset x="3580" y="1230"/>
+          <offset x="1300" y="3580"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3575" y="1190"/>
+        <position x="1260" y="3575"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1447,11 +1516,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Riceve pagamento elettronico</text>
         <graphics>
-          <offset x="6280" y="460"/>
+          <offset x="600" y="6130"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6275" y="420"/>
+        <position x="560" y="6125"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1462,13 +1531,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1sbqw47_end_join">
       <name>
-        <text>allievo rifiuta Chosen</text>
+        <text>Rifiuto scelta bozza ricevuto Chosen</text>
         <graphics>
-          <offset x="5680" y="390"/>
+          <offset x="530" y="5680"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5675" y="350"/>
+        <position x="490" y="5675"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1481,11 +1550,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Riceve contatto allievo</text>
         <graphics>
-          <offset x="1480" y="1650"/>
+          <offset x="1580" y="1930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1475" y="1610"/>
+        <position x="1540" y="1925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1496,13 +1565,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0rhvaqi_middle_split">
       <name>
-        <text>accetta controproposta Choosing</text>
+        <text>Conferma lezione comunicata Choosing</text>
         <graphics>
-          <offset x="7480" y="460"/>
+          <offset x="530" y="7630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7475" y="420"/>
+        <position x="490" y="7625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1515,28 +1584,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="4030" y="950"/>
+          <offset x="1300" y="4030"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4025" y="910"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="Activity_1x1n5no_middle_split">
-      <name>
-        <text>non ha capito Choosing</text>
-        <graphics>
-          <offset x="3130" y="1230"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3125" y="1190"/>
+        <position x="1260" y="4025"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1547,13 +1599,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1kwj7bi_middle_split">
       <name>
-        <text>nuovo esercizio Choosing</text>
+        <text>Comunica  nuovo esercizio Choosing</text>
         <graphics>
-          <offset x="4330" y="1230"/>
+          <offset x="1090" y="4330"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4325" y="1190"/>
+        <position x="1050" y="4325"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1562,15 +1614,15 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
-    <transition id="Activity_00t038y">
+    <transition id="Event_0lgmysm_end_join">
       <name>
-        <text>Invia contatto allievo a maestro</text>
+        <text>Proposta data e luogo ricevuta Chosen</text>
         <graphics>
-          <offset x="1330" y="1650"/>
+          <offset x="1650" y="1480"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1325" y="1610"/>
+        <position x="1610" y="1475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1581,13 +1633,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_09bep5j">
       <name>
-        <text>invia la scelta del corso</text>
+        <text>Scelta del corso comunicata</text>
         <graphics>
-          <offset x="1030" y="1020"/>
+          <offset x="1020" y="1030"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1025" y="980"/>
+        <position x="980" y="1025"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1598,13 +1650,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1ybbxwj">
       <name>
-        <text/>
+        <text>Comunicazione fine lezione ricevuta</text>
         <graphics>
-          <offset x="4630" y="530"/>
+          <offset x="1090" y="4630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4625" y="490"/>
+        <position x="1050" y="4625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1615,13 +1667,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1xlz0ep">
       <name>
-        <text>disegna</text>
+        <text>Prepara schizzo e bozza disegno</text>
         <graphics>
-          <offset x="3430" y="1160"/>
+          <offset x="1230" y="3430"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3425" y="1120"/>
+        <position x="1190" y="3425"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1632,13 +1684,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1lpe25r_end_join">
       <name>
-        <text>riceve conferma Chosen</text>
+        <text>Conferma lezione ricevuta Chosen</text>
         <graphics>
-          <offset x="7480" y="390"/>
+          <offset x="810" y="7630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7475" y="350"/>
+        <position x="770" y="7625"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1swin75">
+      <name>
+        <text>Scelta del maestro</text>
+        <graphics>
+          <offset x="1580" y="1630"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1649,13 +1718,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1kwj7bi">
       <name>
-        <text>nuovo esercizio</text>
+        <text>Comunica  nuovo esercizio</text>
         <graphics>
-          <offset x="4480" y="1230"/>
+          <offset x="1090" y="4480"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4475" y="1190"/>
+        <position x="1050" y="4475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1666,13 +1735,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_02du4n2">
       <name>
-        <text>Comunica a scuola...</text>
+        <text>Comunica  decisione 
+di concludere corso</text>
         <graphics>
-          <offset x="6430" y="670"/>
+          <offset x="390" y="6580"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6425" y="630"/>
+        <position x="350" y="6575"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1683,13 +1753,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1na29um">
       <name>
-        <text>invio materiale</text>
+        <text>Invia lista  tecniche e strumenti</text>
         <graphics>
-          <offset x="7930" y="180"/>
+          <offset x="250" y="8080"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7925" y="140"/>
+        <position x="210" y="8075"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1700,13 +1770,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0rhvaqi">
       <name>
-        <text>accetta controproposta</text>
+        <text>Conferma lezione comunicata</text>
         <graphics>
-          <offset x="7630" y="460"/>
+          <offset x="530" y="7780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7625" y="420"/>
+        <position x="490" y="7775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1717,13 +1787,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1a6sfnr_end_join">
       <name>
-        <text>riceve nuove istruzioni Chosen</text>
+        <text>Consigli ricevuti Chosen</text>
         <graphics>
-          <offset x="4030" y="1090"/>
+          <offset x="1020" y="4030"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4025" y="1050"/>
+        <position x="980" y="4025"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1734,13 +1804,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_16jlyv5">
       <name>
-        <text>riceve la lista dei corsi</text>
+        <text>Lista corsi ricevuta</text>
         <graphics>
-          <offset x="730" y="1020"/>
+          <offset x="1020" y="730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="725" y="980"/>
+        <position x="980" y="725"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1751,13 +1821,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0cn6sik">
       <name>
-        <text>invia controproposta</text>
+        <text>Invia controproposta</text>
         <graphics>
-          <offset x="7630" y="250"/>
+          <offset x="600" y="7780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7625" y="210"/>
+        <position x="560" y="7775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1768,13 +1838,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0egxbef">
       <name>
-        <text>digitalizza disegno</text>
+        <text>Digitalizza disegno</text>
         <graphics>
-          <offset x="5680" y="530"/>
+          <offset x="460" y="5680"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5675" y="490"/>
+        <position x="420" y="5675"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_0uhd3l6">
+      <name>
+        <text>Controlla lista maestri del corso</text>
+        <graphics>
+          <offset x="1580" y="1330"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1325"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1785,13 +1872,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1rtrjx6_end_join">
       <name>
-        <text>invia conferma a maestro Chosen</text>
+        <text>Conferma lezione comunicata Chosen</text>
         <graphics>
-          <offset x="1780" y="1300"/>
+          <offset x="1230" y="2080"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1775" y="1260"/>
+        <position x="1190" y="2075"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_0jl0xzd">
+      <name>
+        <text>Invia contatto allievo a maestro</text>
+        <graphics>
+          <offset x="1580" y="1780"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1804,11 +1908,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Invia proposta data e luogo Chosen</text>
         <graphics>
-          <offset x="7030" y="250"/>
+          <offset x="390" y="7180"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7025" y="210"/>
+        <position x="350" y="7175"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1819,13 +1923,15 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_15bz246_middle_split">
       <name>
-        <text>Choosing</text>
+        <text>Conferma
+ scelta bozza
+ comunicata Choosing</text>
         <graphics>
-          <offset x="5230" y="810"/>
+          <offset x="810" y="5230"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5225" y="770"/>
+        <position x="770" y="5225"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1836,13 +1942,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1p8yhr5">
       <name>
-        <text/>
+        <text>Richiesta lezione aggiuntiva ricevuta</text>
         <graphics>
-          <offset x="6580" y="250"/>
+          <offset x="600" y="6730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6575" y="210"/>
+        <position x="560" y="6725"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1853,13 +1959,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1ldjw71">
       <name>
-        <text>invia controproposta</text>
+        <text>Invia controproposta</text>
         <graphics>
-          <offset x="1630" y="1720"/>
+          <offset x="1510" y="1930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1625" y="1680"/>
+        <position x="1470" y="1925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1870,13 +1976,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1sbqw47">
       <name>
-        <text>allievo rifiuta</text>
+        <text>Rifiuto scelta bozza ricevuto</text>
         <graphics>
-          <offset x="5530" y="670"/>
+          <offset x="670" y="5530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5525" y="630"/>
+        <position x="630" y="5525"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1887,13 +1993,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_10ryd4f">
       <name>
-        <text>invia disegno al maestro</text>
+        <text>Invia lavoro ultimato</text>
         <graphics>
-          <offset x="5830" y="530"/>
+          <offset x="460" y="5830"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5825" y="490"/>
+        <position x="420" y="5825"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1902,15 +2008,15 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
-    <transition id="Activity_0ro6m7s">
+    <transition id="Event_1rtrjx6_middle_split">
       <name>
-        <text>Dummy</text>
+        <text>Conferma lezione comunicata Choosing</text>
         <graphics>
-          <offset x="6130" y="530"/>
+          <offset x="1650" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6125" y="490"/>
+        <position x="1610" y="1775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1921,13 +2027,15 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_15bz246">
       <name>
-        <text/>
+        <text>Conferma
+ scelta bozza
+ comunicata</text>
         <graphics>
-          <offset x="5380" y="810"/>
+          <offset x="810" y="5380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5375" y="770"/>
+        <position x="770" y="5375"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1938,13 +2046,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_15p9cvp">
       <name>
-        <text>riceve disegno</text>
+        <text>Lavoro ultimato ricevuto</text>
         <graphics>
-          <offset x="5980" y="600"/>
+          <offset x="600" y="5980"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5975" y="560"/>
+        <position x="560" y="5975"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1955,13 +2063,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0tg8v5m_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Attesa inizio lezione Chosen</text>
         <graphics>
-          <offset x="2530" y="1090"/>
+          <offset x="1020" y="2680"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2525" y="1050"/>
+        <position x="980" y="2675"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1972,13 +2080,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1kwj7bi_end_join">
       <name>
-        <text>nuovo esercizio Chosen</text>
+        <text>Comunica  nuovo esercizio Chosen</text>
         <graphics>
-          <offset x="4630" y="1650"/>
+          <offset x="1440" y="4630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4625" y="1610"/>
+        <position x="1400" y="4625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1989,30 +2097,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1ybbxwj_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Comunicazione fine lezione ricevuta Chosen</text>
         <graphics>
-          <offset x="4780" y="530"/>
+          <offset x="1090" y="4780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4775" y="490"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="Activity_11ud7z5_middle_split">
-      <name>
-        <text>ha capito Choosing</text>
-        <graphics>
-          <offset x="3130" y="1160"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3125" y="1120"/>
+        <position x="1050" y="4775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2023,13 +2114,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1edof35">
       <name>
-        <text/>
+        <text>Schizzi e bozze ricevuti</text>
         <graphics>
-          <offset x="4180" y="950"/>
+          <offset x="1020" y="4180"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4175" y="910"/>
+        <position x="980" y="4175"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2040,13 +2131,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1p8yhr5_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Richiesta lezione aggiuntiva ricevuta Chosen</text>
         <graphics>
-          <offset x="6730" y="180"/>
+          <offset x="530" y="6880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6725" y="140"/>
+        <position x="490" y="6875"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2057,13 +2148,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1u0bbs5_end_join">
       <name>
-        <text>ricevi istruzioni Chosen</text>
+        <text>Riceve istruzioni Chosen</text>
         <graphics>
-          <offset x="2830" y="1090"/>
+          <offset x="1160" y="2980"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2825" y="1050"/>
+        <position x="1120" y="2975"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2074,13 +2165,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0hp09um_middle_split">
       <name>
-        <text>Choosing</text>
+        <text>Comunicazione di fine lezione inviata Choosing</text>
         <graphics>
-          <offset x="4330" y="670"/>
+          <offset x="1020" y="4330"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4325" y="630"/>
+        <position x="980" y="4325"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2091,13 +2182,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0s5nr53">
       <name>
-        <text/>
+        <text>Comunicazione nuovo esercizio ricevuta</text>
         <graphics>
-          <offset x="4630" y="810"/>
+          <offset x="740" y="4630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4625" y="770"/>
+        <position x="700" y="4625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2108,13 +2199,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_13oiyuf">
       <name>
-        <text/>
+        <text>Comunicazione decisione terminazione corso ricevuta</text>
         <graphics>
-          <offset x="6580" y="320"/>
+          <offset x="390" y="6730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6575" y="280"/>
+        <position x="350" y="6725"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2127,11 +2218,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="7180" y="460"/>
+          <offset x="740" y="7330"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7175" y="420"/>
+        <position x="700" y="7325"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2142,30 +2233,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1u0bbs5">
       <name>
-        <text>ricevi istruzioni</text>
+        <text>Riceve istruzioni</text>
         <graphics>
-          <offset x="2680" y="1370"/>
+          <offset x="1370" y="2830"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2675" y="1330"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="Activity_11ud7z5">
-      <name>
-        <text>ha capito</text>
-        <graphics>
-          <offset x="3280" y="1160"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3275" y="1120"/>
+        <position x="1330" y="2825"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2176,13 +2250,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1i9b3dp">
       <name>
-        <text>completa bozza</text>
+        <text>Completa bozza</text>
         <graphics>
-          <offset x="5530" y="740"/>
+          <offset x="460" y="5530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5525" y="700"/>
+        <position x="420" y="5525"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2193,13 +2267,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1y2vy6k_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Attesa inizio lezione Chosen</text>
         <graphics>
-          <offset x="8230" y="110"/>
+          <offset x="250" y="8380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8225" y="70"/>
+        <position x="210" y="8375"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2212,11 +2286,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="130" y="1230"/>
+          <offset x="1160" y="130"/>
         </graphics>
       </name>
       <graphics>
-        <position x="125" y="1190"/>
+        <position x="1120" y="125"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2227,13 +2301,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_049crwf">
       <name>
-        <text/>
+        <text>Corso terminato</text>
         <graphics>
-          <offset x="6580" y="530"/>
+          <offset x="250" y="6730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6575" y="490"/>
+        <position x="210" y="6725"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2244,13 +2318,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0ph540w_middle_split">
       <name>
-        <text>richede nuova lezione? Choosing</text>
+        <text>Invia richiesta lezione aggiuntiva Choosing</text>
         <graphics>
-          <offset x="6280" y="250"/>
+          <offset x="460" y="6430"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6275" y="210"/>
+        <position x="420" y="6425"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2261,13 +2335,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0cn6sik_end_join">
       <name>
-        <text>invia controproposta Chosen</text>
+        <text>Invia controproposta Chosen</text>
         <graphics>
-          <offset x="7780" y="110"/>
+          <offset x="110" y="7930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7775" y="70"/>
+        <position x="70" y="7925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2278,13 +2352,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_15z4di6">
       <name>
-        <text>Propone progetto da portare a casa</text>
+        <text>Propone bozza per casa</text>
         <graphics>
-          <offset x="4930" y="670"/>
+          <offset x="1020" y="4930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4925" y="630"/>
+        <position x="980" y="4925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2295,13 +2369,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0fgc5yp">
       <name>
-        <text>Da istruzioni ad aliievo</text>
+        <text>Descrive  procedimento</text>
         <graphics>
-          <offset x="8380" y="110"/>
+          <offset x="250" y="8530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8375" y="70"/>
+        <position x="210" y="8525"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2312,13 +2386,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1ub2s5j_end_join">
       <name>
-        <text>ricevuta conferma controproposta Chosen</text>
+        <text>Conferma controproposta
+ricevuta Chosen</text>
         <graphics>
-          <offset x="1930" y="1230"/>
+          <offset x="110" y="8080"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1925" y="1190"/>
+        <position x="70" y="8075"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2329,13 +2404,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1q35f80">
       <name>
-        <text>rifiuta proposta</text>
+        <text>Rifiuto 
+scelta bozza comunicato</text>
         <graphics>
-          <offset x="5380" y="670"/>
+          <offset x="740" y="5380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5375" y="630"/>
+        <position x="700" y="5375"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2348,11 +2424,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Sceglie il corso</text>
         <graphics>
-          <offset x="880" y="1020"/>
+          <offset x="1020" y="880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="875" y="980"/>
+        <position x="980" y="875"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2365,11 +2441,11 @@ Manual editing may break compatibility.-->
       <name>
         <text/>
         <graphics>
-          <offset x="2980" y="1160"/>
+          <offset x="1230" y="3130"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2975" y="1120"/>
+        <position x="1190" y="3125"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2380,13 +2456,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1rtrjx6">
       <name>
-        <text>invia conferma a maestro</text>
+        <text>Conferma lezione comunicata</text>
         <graphics>
-          <offset x="1630" y="1580"/>
+          <offset x="1650" y="1930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1625" y="1540"/>
+        <position x="1610" y="1925"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1wekqo2">
+      <name>
+        <text>Verifica disponibilità maestri</text>
+        <graphics>
+          <offset x="1580" y="1480"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1540" y="1475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2397,13 +2490,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0cn6sik_middle_split">
       <name>
-        <text>invia controproposta Choosing</text>
+        <text>Invia controproposta Choosing</text>
         <graphics>
-          <offset x="7480" y="250"/>
+          <offset x="600" y="7630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7475" y="210"/>
+        <position x="560" y="7625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2414,13 +2507,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_12nvk4h">
       <name>
-        <text>riceve controproposta</text>
+        <text>Controproposta ricevuta</text>
         <graphics>
-          <offset x="7330" y="320"/>
+          <offset x="530" y="7480"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7325" y="280"/>
+        <position x="490" y="7475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2431,13 +2524,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0s5nr53_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Comunicazione nuovo esercizio ricevuta Chosen</text>
         <graphics>
-          <offset x="4780" y="740"/>
+          <offset x="670" y="4780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4775" y="700"/>
+        <position x="630" y="4775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2448,13 +2541,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0hp09um_end_join">
       <name>
-        <text>Chosen</text>
+        <text>Comunicazione di fine lezione inviata Chosen</text>
         <graphics>
-          <offset x="4630" y="600"/>
+          <offset x="810" y="4630"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4625" y="560"/>
+        <position x="770" y="4625"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2465,13 +2558,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1lpe25r">
       <name>
-        <text>riceve conferma</text>
+        <text>Conferma lezione ricevuta</text>
         <graphics>
-          <offset x="7330" y="390"/>
+          <offset x="810" y="7480"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7325" y="350"/>
+        <position x="770" y="7475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2482,13 +2575,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0hkksq3">
       <name>
-        <text>riceve proposta da maestro</text>
+        <text>Proposta bozza per casa ricevuta</text>
         <graphics>
-          <offset x="5080" y="600"/>
+          <offset x="1020" y="5080"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5075" y="560"/>
+        <position x="980" y="5075"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2499,13 +2592,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0egya30">
       <name>
-        <text>Ricevuta nuova controproposta</text>
+        <text>Nuova controproposta
+ricevuta</text>
         <graphics>
-          <offset x="7780" y="320"/>
+          <offset x="740" y="7930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7775" y="280"/>
+        <position x="700" y="7925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2516,13 +2610,65 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0tg8v5m">
       <name>
-        <text/>
+        <text>Attesa inizio lezione</text>
         <graphics>
-          <offset x="2380" y="1090"/>
+          <offset x="1020" y="2530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2375" y="1050"/>
+        <position x="980" y="2525"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Event_0egya30_end_join">
+      <name>
+        <text>Nuova controproposta
+ricevuta Chosen</text>
+        <graphics>
+          <offset x="390" y="8080"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="350" y="8075"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Flow_1e86he6">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1650" y="1630"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1610" y="1625"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1xlz0ep_middle_split">
+      <name>
+        <text>Prepara schizzo e bozza disegno Choosing</text>
+        <graphics>
+          <offset x="1230" y="3280"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1190" y="3275"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2533,13 +2679,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0lgmysm">
       <name>
-        <text>riceve proposta orario e luogo</text>
+        <text>Proposta data e luogo ricevuta</text>
         <graphics>
-          <offset x="1330" y="810"/>
+          <offset x="950" y="1330"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1325" y="770"/>
+        <position x="910" y="1325"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2550,13 +2696,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1q35f80_end_join">
       <name>
-        <text>rifiuta proposta Chosen</text>
+        <text>Rifiuto 
+scelta bozza comunicato Chosen</text>
         <graphics>
-          <offset x="5530" y="600"/>
+          <offset x="530" y="5530"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5525" y="560"/>
+        <position x="490" y="5525"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2567,47 +2714,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_08eomqx">
       <name>
-        <text/>
+        <text>Corso terminato</text>
         <graphics>
-          <offset x="6730" y="320"/>
+          <offset x="250" y="6880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6725" y="280"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="Activity_1x1n5no">
-      <name>
-        <text>non ha capito</text>
-        <graphics>
-          <offset x="3280" y="1230"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="3275" y="1190"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="Gateway_1cl23yv_mid">
-      <name>
-        <text>mid</text>
-        <graphics>
-          <offset x="1480" y="1720"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1475" y="1680"/>
+        <position x="210" y="6875"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2618,13 +2731,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0nsogf3">
       <name>
-        <text>selezione bozza da portare a casa</text>
+        <text>Sceglie bozza per casa</text>
         <graphics>
-          <offset x="4780" y="670"/>
+          <offset x="1020" y="4780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4775" y="630"/>
+        <position x="980" y="4775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2635,13 +2748,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0rhvaqi_end_join">
       <name>
-        <text>accetta controproposta Chosen</text>
+        <text>Conferma lezione comunicata Chosen</text>
         <graphics>
-          <offset x="7780" y="390"/>
+          <offset x="530" y="7930"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7775" y="350"/>
+        <position x="490" y="7925"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2652,13 +2765,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_0hp09um">
       <name>
-        <text/>
+        <text>Comunicazione di fine lezione inviata</text>
         <graphics>
-          <offset x="4480" y="670"/>
+          <offset x="1020" y="4480"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4475" y="630"/>
+        <position x="980" y="4475"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2669,13 +2782,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0fgc5yp_end_join">
       <name>
-        <text>Da istruzioni ad aliievo Chosen</text>
+        <text>Descrive  procedimento Chosen</text>
         <graphics>
-          <offset x="8530" y="180"/>
+          <offset x="110" y="8680"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8525" y="140"/>
+        <position x="70" y="8675"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2686,13 +2799,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1u15175">
       <name>
-        <text>Invia lista dei corsi disponibili</text>
+        <text>Invia lista corsi disponibili</text>
         <graphics>
-          <offset x="580" y="1370"/>
+          <offset x="1370" y="580"/>
         </graphics>
       </name>
       <graphics>
-        <position x="575" y="1330"/>
+        <position x="1330" y="575"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2703,13 +2816,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_09bep5j_end_join">
       <name>
-        <text>invia la scelta del corso Chosen</text>
+        <text>Scelta del corso comunicata Chosen</text>
         <graphics>
-          <offset x="1180" y="460"/>
+          <offset x="530" y="1180"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1175" y="420"/>
+        <position x="490" y="1175"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2720,13 +2833,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0udezmd">
       <name>
-        <text>manda chiarimenti</text>
+        <text>Impartisce consigli</text>
         <graphics>
-          <offset x="3730" y="1160"/>
+          <offset x="1370" y="3730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3725" y="1120"/>
+        <position x="1330" y="3725"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2737,13 +2850,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0udezmd_end_join">
       <name>
-        <text>manda chiarimenti Chosen</text>
+        <text>Impartisce consigli Chosen</text>
         <graphics>
-          <offset x="3880" y="1230"/>
+          <offset x="1370" y="3880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3875" y="1190"/>
+        <position x="1330" y="3875"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2754,13 +2867,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_1podcyt">
       <name>
-        <text>Ricezione materiale</text>
+        <text>Riceve lista tecniche e strumenti</text>
         <graphics>
-          <offset x="2080" y="1230"/>
+          <offset x="670" y="2230"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2075" y="1190"/>
+        <position x="630" y="2225"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2771,13 +2884,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0ph540w_end_join">
       <name>
-        <text>richede nuova lezione? Chosen</text>
+        <text>Invia richiesta lezione aggiuntiva Chosen</text>
         <graphics>
-          <offset x="6580" y="110"/>
+          <offset x="110" y="6730"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6575" y="70"/>
+        <position x="70" y="6725"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_08uuzr1_middle_split">
+      <name>
+        <text>Richiede consigli Choosing</text>
+        <graphics>
+          <offset x="1300" y="3280"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1260" y="3275"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2788,13 +2918,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_000cala">
       <name>
-        <text>riceve la scelta del corso</text>
+        <text>Scelta del corso ricevuta</text>
         <graphics>
-          <offset x="1180" y="1650"/>
+          <offset x="1580" y="1180"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1175" y="1610"/>
+        <position x="1540" y="1175"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1ldjw71_middle_split">
+      <name>
+        <text>Invia controproposta Choosing</text>
+        <graphics>
+          <offset x="1510" y="1780"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1470" y="1775"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2807,11 +2954,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>End</text>
         <graphics>
-          <offset x="6880" y="250"/>
+          <offset x="180" y="7030"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6875" y="210"/>
+        <position x="140" y="7025"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2822,13 +2969,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_055gu13">
       <name>
-        <text>studio materiale</text>
+        <text>Studio materiale</text>
         <graphics>
-          <offset x="2230" y="1090"/>
+          <offset x="1020" y="2380"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2225" y="1050"/>
+        <position x="980" y="2375"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2841,11 +2988,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Invia proposta data e luogo</text>
         <graphics>
-          <offset x="6880" y="180"/>
+          <offset x="390" y="7030"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6875" y="140"/>
+        <position x="350" y="7025"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2856,13 +3003,30 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Event_1y2vy6k">
       <name>
-        <text/>
+        <text>Attesa inizio lezione</text>
         <graphics>
-          <offset x="8080" y="110"/>
+          <offset x="250" y="8230"/>
         </graphics>
       </name>
       <graphics>
-        <position x="8075" y="70"/>
+        <position x="210" y="8225"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Event_1b82ycu">
+      <name>
+        <text>Conferma di pagamento ricevuta</text>
+        <graphics>
+          <offset x="390" y="6280"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="350" y="6275"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2875,11 +3039,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>Riceve contatto allievo Chosen</text>
         <graphics>
-          <offset x="1630" y="1650"/>
+          <offset x="1510" y="2080"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1625" y="1610"/>
+        <position x="1470" y="2075"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2890,13 +3054,14 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_02du4n2_middle_split">
       <name>
-        <text>Comunica a scuola... Choosing</text>
+        <text>Comunica  decisione 
+di concludere corso Choosing</text>
         <graphics>
-          <offset x="6280" y="670"/>
+          <offset x="390" y="6430"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6275" y="630"/>
+        <position x="350" y="6425"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2907,13 +3072,13 @@ Manual editing may break compatibility.-->
     </transition>
     <transition id="Activity_0jr24kv">
       <name>
-        <text>paga alla scuola</text>
+        <text>Paga la scuola</text>
         <graphics>
-          <offset x="5980" y="530"/>
+          <offset x="390" y="5980"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5975" y="490"/>
+        <position x="350" y="5975"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2923,6 +3088,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </transition>
     <arc id="Event_0s5nr53Event_0s5nr53_middle_join" source="Event_0s5nr53" target="Event_0s5nr53_middle_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="end_p_Process_mwoaqipend_t" source="end_p_Process_mwoaqip" target="end_t">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3000,8 +3179,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="6445" y="370"/>
-        <position x="6520" y="300"/>
+        <position x="580" y="6295"/>
+        <position x="580" y="6670"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3009,35 +3188,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Event_08eomqxend_p_Process_03toz92" source="Event_08eomqx" target="end_p_Process_03toz92">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="Event_1ybbxwjEvent_1ybbxwj_middle_join" source="Event_1ybbxwj" target="Event_1ybbxwj_middle_join">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_00t038yFlow_1axlqga" source="Activity_00t038y" target="Flow_1axlqga">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3107,6 +3258,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_1ldjw71_end_splitActivity_1ldjw71" source="Activity_1ldjw71_end_split" target="Activity_1ldjw71">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Flow_1ihv06cActivity_1i9b3dp" source="Flow_1ihv06c" target="Activity_1i9b3dp">
       <inscription>
         <text>1</text>
@@ -3149,6 +3314,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Gateway_1cl23yvEvent_1rtrjx6_middle_split" source="Gateway_1cl23yv" target="Event_1rtrjx6_middle_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Event_1ybbxwj_end_joinGateway_0njqze4" source="Event_1ybbxwj_end_join" target="Gateway_0njqze4">
       <inscription>
         <text>1</text>
@@ -3157,22 +3336,12 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="5545" y="510"/>
+        <position x="1070" y="5020"/>
+        <position x="860" y="5095"/>
+        <position x="860" y="5395"/>
+        <position x="790" y="5470"/>
+        <position x="720" y="5545"/>
       </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_1x1n5no_end_splitActivity_1x1n5no" source="Activity_1x1n5no_end_split" target="Activity_1x1n5no">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -3194,6 +3363,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Gateway_1c2boreEvent_1edof35" source="Gateway_1c2bore" target="Event_1edof35">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_0egya30Event_0egya30_middle_join" source="Event_0egya30" target="Event_0egya30_middle_join">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3235,36 +3418,6 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Gateway_1he3wnmActivity_1x1n5no_middle_split" source="Gateway_1he3wnm" target="Activity_1x1n5no_middle_split">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Flow_0i1mfksEvent_15p9cvp" source="Flow_0i1mfks" target="Event_15p9cvp">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics>
-        <position x="5920" y="720"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="Activity_0nsogf3Flow_1ryrufd" source="Activity_0nsogf3" target="Flow_1ryrufd">
       <inscription>
         <text>1</text>
@@ -3279,52 +3432,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Event_049crwfend_p_Process_11q0avs" source="Event_049crwf" target="end_p_Process_11q0avs">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="end_p_Process_11q0avsend_t" source="end_p_Process_11q0avs" target="end_t">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics>
-        <position x="6745" y="370"/>
-        <position x="6820" y="230"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_1x1n5noFlow_1hevcvh" source="Activity_1x1n5no" target="Flow_1hevcvh">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Gateway_1cl23yv_sActivity_1ldjw71" source="Gateway_1cl23yv_s" target="Activity_1ldjw71">
+    <arc id="Gateway_1he3wnmActivity_08uuzr1_middle_split" source="Gateway_1he3wnm" target="Activity_08uuzr1_middle_split">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3380,6 +3488,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_1swin75Flow_0srnyxf" source="Activity_1swin75" target="Flow_0srnyxf">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Flow_1lrk4roEvent_1ub2s5j" source="Flow_1lrk4ro" target="Event_1ub2s5j">
       <inscription>
         <text>1</text>
@@ -3387,24 +3509,21 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="7045" y="160"/>
-        <position x="6970" y="440"/>
-        <position x="6895" y="440"/>
-        <position x="6820" y="580"/>
-        <position x="6745" y="650"/>
-        <position x="6595" y="650"/>
-        <position x="6520" y="790"/>
-        <position x="5995" y="790"/>
-        <position x="5920" y="860"/>
-        <position x="5620" y="860"/>
-        <position x="5545" y="1000"/>
-        <position x="5470" y="1140"/>
-        <position x="4120" y="1140"/>
-        <position x="4045" y="1350"/>
-        <position x="3970" y="1490"/>
-        <position x="1870" y="1490"/>
-      </graphics>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_0egya30_middle_joinEvent_0egya30_end_join" source="Event_0egya30_middle_join" target="Event_0egya30_end_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -3419,7 +3538,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="4795" y="370"/>
+        <position x="580" y="5620"/>
+        <position x="580" y="4795"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3511,6 +3631,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Event_0lgmysm_middle_joinEvent_0lgmysm_end_join" source="Event_0lgmysm_middle_join" target="Event_0lgmysm_end_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Flow_0qq2l0vGateway_0hid3q8" source="Flow_0qq2l0v" target="Gateway_0hid3q8">
       <inscription>
         <text>1</text>
@@ -3533,22 +3667,16 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3820" y="1770"/>
-        <position x="3895" y="1700"/>
-        <position x="3970" y="1700"/>
-        <position x="4045" y="1490"/>
-        <position x="4120" y="1350"/>
-        <position x="5470" y="1350"/>
-        <position x="5545" y="1210"/>
-        <position x="5620" y="1070"/>
-        <position x="5920" y="1070"/>
-        <position x="5995" y="1000"/>
-        <position x="6520" y="1000"/>
-        <position x="6595" y="720"/>
-        <position x="6670" y="510"/>
-        <position x="6745" y="510"/>
-        <position x="6820" y="440"/>
-        <position x="6895" y="300"/>
+        <position x="1700" y="4570"/>
+        <position x="1490" y="4645"/>
+        <position x="1490" y="5470"/>
+        <position x="1350" y="5545"/>
+        <position x="1000" y="5620"/>
+        <position x="1000" y="6745"/>
+        <position x="720" y="6820"/>
+        <position x="720" y="6895"/>
+        <position x="580" y="6970"/>
+        <position x="510" y="7045"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3606,23 +3734,20 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="5470" y="1630"/>
-        <position x="5545" y="1490"/>
-        <position x="5620" y="1140"/>
-        <position x="5920" y="1140"/>
-        <position x="5995" y="1070"/>
-        <position x="6520" y="1070"/>
-        <position x="6595" y="790"/>
-        <position x="6670" y="720"/>
-        <position x="6745" y="720"/>
-        <position x="6820" y="650"/>
-        <position x="6895" y="580"/>
-        <position x="7645" y="580"/>
-        <position x="7720" y="440"/>
-        <position x="7795" y="230"/>
-        <position x="7945" y="230"/>
-        <position x="8020" y="160"/>
-        <position x="8245" y="160"/>
+        <position x="1420" y="5470"/>
+        <position x="1280" y="5545"/>
+        <position x="1210" y="5620"/>
+        <position x="790" y="5695"/>
+        <position x="790" y="6670"/>
+        <position x="650" y="6745"/>
+        <position x="580" y="6820"/>
+        <position x="580" y="6895"/>
+        <position x="510" y="6970"/>
+        <position x="440" y="7045"/>
+        <position x="440" y="8095"/>
+        <position x="370" y="8170"/>
+        <position x="300" y="8245"/>
+        <position x="300" y="8395"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3638,7 +3763,7 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="1120" y="1700"/>
+        <position x="1630" y="1120"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3647,20 +3772,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Activity_0cn6sikFlow_1036ayo" source="Activity_0cn6sik" target="Flow_1036ayo">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Flow_0guhfjmActivity_1a4sn2d" source="Flow_0guhfjm" target="Activity_1a4sn2d">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3688,21 +3799,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Flow_17bpxu0Activity_1xlz0ep" source="Flow_17bpxu0" target="Activity_1xlz0ep">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Gateway_1cl23yv_sEvent_1rtrjx6" source="Gateway_1cl23yv_s" target="Event_1rtrjx6">
+    <arc id="Activity_1wekqo2Flow_18okm4c" source="Activity_1wekqo2" target="Flow_18okm4c">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3772,14 +3869,17 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Flow_1axlqgaActivity_10lkd51" source="Flow_1axlqga" target="Activity_10lkd51">
+    <arc id="Flow_1com2t1Event_15p9cvp" source="Flow_1com2t1" target="Event_15p9cvp">
       <inscription>
         <text>1</text>
         <graphics>
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="650" y="5695"/>
+        <position x="650" y="5920"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -3850,20 +3950,17 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3820" y="1630"/>
-        <position x="3895" y="1560"/>
-        <position x="4045" y="1560"/>
-        <position x="4120" y="1210"/>
-        <position x="4195" y="1070"/>
-        <position x="5470" y="1070"/>
-        <position x="5545" y="930"/>
-        <position x="5620" y="650"/>
-        <position x="6145" y="650"/>
-        <position x="6220" y="580"/>
-        <position x="6520" y="580"/>
-        <position x="6595" y="370"/>
-        <position x="6670" y="230"/>
-        <position x="6745" y="230"/>
+        <position x="1490" y="3820"/>
+        <position x="1420" y="3895"/>
+        <position x="1420" y="3970"/>
+        <position x="1350" y="4045"/>
+        <position x="1140" y="4120"/>
+        <position x="1140" y="5470"/>
+        <position x="1000" y="5545"/>
+        <position x="860" y="5620"/>
+        <position x="860" y="6670"/>
+        <position x="510" y="6745"/>
+        <position x="370" y="6820"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -3913,6 +4010,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Gateway_1he3wnmActivity_1xlz0ep_middle_split" source="Gateway_1he3wnm" target="Activity_1xlz0ep_middle_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Flow_1nyhuzqEvent_16jlyv5" source="Flow_1nyhuzq" target="Event_16jlyv5">
       <inscription>
         <text>1</text>
@@ -3920,9 +4031,7 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="670" y="1070"/>
-      </graphics>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -3951,22 +4060,10 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="5170" y="440"/>
+        <position x="790" y="5545"/>
+        <position x="860" y="5470"/>
+        <position x="1000" y="5395"/>
       </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Event_1w9gmkyFlow_0i1mfks" source="Event_1w9gmky" target="Flow_0i1mfks">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -3981,8 +4078,22 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="7195" y="90"/>
+        <position x="90" y="7345"/>
       </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_000calaFlow_1vjxnxw" source="Event_000cala" target="Flow_1vjxnxw">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4011,8 +4122,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3595" y="860"/>
-        <position x="4570" y="860"/>
+        <position x="860" y="3595"/>
+        <position x="860" y="4570"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -4020,7 +4131,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_0ro6m7sGateway_12r0crx" source="Activity_0ro6m7s" target="Gateway_12r0crx">
+    <arc id="Activity_0jl0xzdFlow_0vs2b80" source="Activity_0jl0xzd" target="Flow_0vs2b80">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4056,11 +4167,10 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="6670" y="90"/>
-        <position x="6595" y="160"/>
-        <position x="6520" y="230"/>
-        <position x="6445" y="300"/>
-        <position x="1420" y="300"/>
+        <position x="90" y="6820"/>
+        <position x="160" y="6745"/>
+        <position x="230" y="6670"/>
+        <position x="230" y="1420"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -4096,7 +4206,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="start_p_Process_11q0avsEvent_1dg4o2i" source="start_p_Process_11q0avs" target="Event_1dg4o2i">
+    <arc id="Event_1w9gmkyFlow_1com2t1" source="Event_1w9gmky" target="Flow_1com2t1">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4111,6 +4221,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Flow_0uk7n9cActivity_0egxbef" source="Flow_0uk7n9c" target="Activity_0egxbef">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="start_p_Process_mwoaqipEvent_1dg4o2i" source="start_p_Process_mwoaqip" target="Event_1dg4o2i">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4160,18 +4284,7 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="7945" y="300"/>
-        <position x="7870" y="300"/>
-        <position x="7795" y="510"/>
-        <position x="7720" y="860"/>
-        <position x="6820" y="860"/>
-        <position x="6745" y="930"/>
-        <position x="6595" y="930"/>
-        <position x="6520" y="1210"/>
-        <position x="5620" y="1210"/>
-        <position x="5545" y="1280"/>
-        <position x="5470" y="1420"/>
-        <position x="2170" y="1420"/>
+        <position x="300" y="2320"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -4194,20 +4307,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Event_1y2vy6k_end_joinGateway_19qg2j4" source="Event_1y2vy6k_end_join" target="Gateway_19qg2j4">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_0ro6m7sFlow_0guhfjm" source="Activity_0ro6m7s" target="Flow_0guhfjm">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4326,10 +4425,7 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="6145" y="580"/>
-        <position x="6220" y="510"/>
-      </graphics>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4351,20 +4447,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Activity_0fgc5ypActivity_0fgc5yp_middle_join" source="Activity_0fgc5yp" target="Activity_0fgc5yp_middle_join">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="end_p_Process_03toz92end_t" source="end_p_Process_03toz92" target="end_t">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4420,20 +4502,6 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_11ud7z5Flow_17bpxu0" source="Activity_11ud7z5" target="Flow_17bpxu0">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="Event_1y2vy6kEvent_1y2vy6k_middle_join" source="Event_1y2vy6k" target="Event_1y2vy6k_middle_join">
       <inscription>
         <text>1</text>
@@ -4449,6 +4517,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Flow_1yo57f0Activity_055gu13" source="Flow_1yo57f0" target="Activity_055gu13">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_1j1i4ikEvent_1b82ycu" source="Flow_1j1i4ik" target="Event_1b82ycu">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4525,27 +4607,41 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="90" y="8020"/>
+        <position x="160" y="7945"/>
+        <position x="230" y="7870"/>
+        <position x="230" y="7045"/>
+        <position x="440" y="6970"/>
+        <position x="440" y="6745"/>
+        <position x="510" y="6670"/>
+        <position x="510" y="5770"/>
+        <position x="580" y="5695"/>
+        <position x="790" y="5620"/>
+        <position x="1070" y="5545"/>
+        <position x="1210" y="5470"/>
+        <position x="1210" y="4645"/>
+        <position x="1490" y="4570"/>
+        <position x="1490" y="4120"/>
+        <position x="1560" y="4045"/>
+        <position x="1560" y="3895"/>
+        <position x="1770" y="3820"/>
+        <position x="1770" y="2245"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Gateway_1c2boreActivity_08tp52s" source="Gateway_1c2bore" target="Activity_08tp52s">
+    <arc id="Event_1edof35Gateway_05htnr2" source="Event_1edof35" target="Gateway_05htnr2">
       <inscription>
         <text>1</text>
         <graphics>
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="4045" y="1140"/>
-        <position x="3970" y="1280"/>
-        <position x="3895" y="1280"/>
-        <position x="3820" y="1350"/>
-        <position x="3670" y="1350"/>
-      </graphics>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4566,14 +4662,19 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Event_1edof35Gateway_05htnr2" source="Event_1edof35" target="Gateway_05htnr2">
+    <arc id="Gateway_1c2boreActivity_08tp52s" source="Gateway_1c2bore" target="Activity_08tp52s">
       <inscription>
         <text>1</text>
         <graphics>
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="1140" y="4045"/>
+        <position x="1210" y="3970"/>
+        <position x="1210" y="3895"/>
+        <position x="1280" y="3820"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4595,20 +4696,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Activity_0ph540w_middle_joinActivity_0ph540w_end_join" source="Activity_0ph540w_middle_join" target="Activity_0ph540w_end_join">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Gateway_1cl23yv_jGateway_1cl23yv_mid" source="Gateway_1cl23yv_j" target="Gateway_1cl23yv_mid">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4658,8 +4745,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="6445" y="510"/>
-        <position x="6520" y="510"/>
+        <position x="720" y="6295"/>
+        <position x="720" y="6670"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -4668,6 +4755,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Event_1rtrjx6_middle_joinEvent_1rtrjx6_end_join" source="Event_1rtrjx6_middle_join" target="Event_1rtrjx6_end_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_1e86he6Gateway_1cl23yv" source="Flow_1e86he6" target="Gateway_1cl23yv">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4709,6 +4810,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_1ldjw71_middle_splitActivity_1ldjw71_end_split" source="Activity_1ldjw71_middle_split" target="Activity_1ldjw71_end_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Event_1a6sfnr_middle_joinEvent_1a6sfnr_end_join" source="Event_1a6sfnr_middle_join" target="Event_1a6sfnr_end_join">
       <inscription>
         <text>1</text>
@@ -4731,9 +4846,28 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3595" y="580"/>
-        <position x="4570" y="580"/>
+        <position x="1420" y="3595"/>
+        <position x="1420" y="3745"/>
+        <position x="1350" y="3820"/>
+        <position x="1280" y="3895"/>
+        <position x="1280" y="3970"/>
+        <position x="1210" y="4045"/>
+        <position x="1210" y="4570"/>
       </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_1rtrjx6_middle_splitEvent_1rtrjx6_end_split" source="Event_1rtrjx6_middle_split" target="Event_1rtrjx6_end_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4796,35 +4930,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Flow_12dfa1rActivity_00t038y" source="Flow_12dfa1r" target="Activity_00t038y">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="Activity_1na29umFlow_05gzygw" source="Activity_1na29um" target="Flow_05gzygw">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_0cn6sik_middle_joinActivity_0cn6sik_end_join" source="Activity_0cn6sik_middle_join" target="Activity_0cn6sik_end_join">
       <inscription>
         <text>1</text>
         <graphics>
@@ -4846,9 +4952,24 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="7720" y="370"/>
-        <position x="7795" y="160"/>
+        <position x="790" y="7795"/>
+        <position x="720" y="7870"/>
+        <position x="370" y="7945"/>
       </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_0cn6sik_middle_joinActivity_0cn6sik_end_join" source="Activity_0cn6sik_middle_join" target="Activity_0cn6sik_end_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4933,8 +5054,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="5095" y="930"/>
-        <position x="5470" y="930"/>
+        <position x="1070" y="5095"/>
+        <position x="1070" y="5470"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -4978,22 +5099,17 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3820" y="1840"/>
-        <position x="3895" y="1770"/>
-        <position x="3970" y="1770"/>
-        <position x="4045" y="1700"/>
-        <position x="4120" y="1630"/>
-        <position x="4495" y="1630"/>
-        <position x="4570" y="1210"/>
-        <position x="5470" y="1210"/>
-        <position x="5545" y="1070"/>
-        <position x="5620" y="930"/>
-        <position x="5920" y="930"/>
-        <position x="5995" y="860"/>
-        <position x="6520" y="860"/>
-        <position x="6595" y="440"/>
-        <position x="6745" y="440"/>
-        <position x="6820" y="370"/>
+        <position x="1910" y="3820"/>
+        <position x="1840" y="3895"/>
+        <position x="1840" y="4045"/>
+        <position x="1630" y="4120"/>
+        <position x="1630" y="5470"/>
+        <position x="1490" y="5545"/>
+        <position x="1420" y="5620"/>
+        <position x="1280" y="5695"/>
+        <position x="1280" y="6670"/>
+        <position x="860" y="6745"/>
+        <position x="860" y="7420"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -5001,7 +5117,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_11ud7z5_end_splitActivity_11ud7z5" source="Activity_11ud7z5_end_split" target="Activity_11ud7z5">
+    <arc id="Flow_0jnwxekGateway_1he3wnm" source="Flow_0jnwxek" target="Gateway_1he3wnm">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5015,7 +5131,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Flow_0jnwxekGateway_1he3wnm" source="Flow_0jnwxek" target="Gateway_1he3wnm">
+    <arc id="Activity_08uuzr1_end_splitActivity_08uuzr1" source="Activity_08uuzr1_end_split" target="Activity_08uuzr1">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5043,6 +5159,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_1a4sn2dFlow_1j1i4ik" source="Activity_1a4sn2d" target="Flow_1j1i4ik">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Gateway_186w3svEvent_1sbqw47" source="Gateway_186w3sv" target="Event_1sbqw47">
       <inscription>
         <text>1</text>
@@ -5051,9 +5181,7 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="5095" y="720"/>
-        <position x="5395" y="720"/>
-        <position x="5470" y="650"/>
+        <position x="650" y="5095"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -5069,31 +5197,25 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="8320" y="160"/>
-        <position x="8245" y="230"/>
-        <position x="8095" y="230"/>
-        <position x="8020" y="300"/>
-        <position x="7945" y="370"/>
-        <position x="7870" y="370"/>
-        <position x="7795" y="440"/>
-        <position x="7720" y="580"/>
-        <position x="7645" y="650"/>
-        <position x="6895" y="650"/>
-        <position x="6820" y="720"/>
-        <position x="6745" y="790"/>
-        <position x="6670" y="790"/>
-        <position x="6595" y="1000"/>
-        <position x="6520" y="1140"/>
-        <position x="5995" y="1140"/>
-        <position x="5920" y="1280"/>
-        <position x="5620" y="1280"/>
-        <position x="5545" y="1420"/>
-        <position x="5470" y="1560"/>
-        <position x="4120" y="1560"/>
-        <position x="4045" y="1630"/>
-        <position x="3895" y="1630"/>
-        <position x="3820" y="1700"/>
-        <position x="2770" y="1700"/>
+        <position x="300" y="8545"/>
+        <position x="300" y="8470"/>
+        <position x="370" y="8395"/>
+        <position x="370" y="8245"/>
+        <position x="440" y="8170"/>
+        <position x="510" y="8095"/>
+        <position x="580" y="8020"/>
+        <position x="580" y="7870"/>
+        <position x="650" y="7795"/>
+        <position x="650" y="6820"/>
+        <position x="720" y="6745"/>
+        <position x="1140" y="6670"/>
+        <position x="1140" y="5545"/>
+        <position x="1280" y="5470"/>
+        <position x="1280" y="4120"/>
+        <position x="1490" y="4045"/>
+        <position x="1490" y="3895"/>
+        <position x="1560" y="3820"/>
+        <position x="1560" y="2920"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -5109,24 +5231,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="1795" y="1910"/>
-        <position x="3820" y="1910"/>
-        <position x="3895" y="1840"/>
-        <position x="3970" y="1840"/>
-        <position x="4045" y="1770"/>
-        <position x="4120" y="1490"/>
-        <position x="5470" y="1490"/>
-        <position x="5545" y="1350"/>
-        <position x="5920" y="1350"/>
-        <position x="5995" y="1280"/>
-        <position x="6520" y="1280"/>
-        <position x="6595" y="1070"/>
-        <position x="6670" y="1000"/>
-        <position x="6745" y="1000"/>
-        <position x="6820" y="930"/>
-        <position x="6895" y="720"/>
-        <position x="7645" y="720"/>
-        <position x="7720" y="650"/>
+        <position x="930" y="2095"/>
+        <position x="930" y="7870"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -5142,6 +5248,38 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_0egya30_end_joinGateway_149buq4" source="Event_0egya30_end_join" target="Gateway_149buq4">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="370" y="8020"/>
+        <position x="650" y="7945"/>
+        <position x="790" y="7870"/>
+        <position x="860" y="7795"/>
+        <position x="860" y="7495"/>
+        <position x="1000" y="7420"/>
+        <position x="1000" y="6820"/>
+        <position x="1140" y="6745"/>
+        <position x="1350" y="6670"/>
+        <position x="1350" y="5620"/>
+        <position x="1420" y="5545"/>
+        <position x="1560" y="5470"/>
+        <position x="1560" y="4120"/>
+        <position x="1630" y="4045"/>
+        <position x="1630" y="2020"/>
+        <position x="1700" y="1945"/>
+        <position x="1700" y="1645"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5176,6 +5314,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_1xlz0ep_middle_splitActivity_1xlz0ep_end_split" source="Activity_1xlz0ep_middle_split" target="Activity_1xlz0ep_end_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Event_1rtrjx6_end_joinGateway_0rxssuw" source="Event_1rtrjx6_end_join" target="Gateway_0rxssuw">
       <inscription>
         <text>1</text>
@@ -5183,9 +5335,7 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="1945" y="1280"/>
-      </graphics>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5206,7 +5356,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_0udezmd_end_joinGateway_114htf5" source="Activity_0udezmd_end_join" target="Gateway_114htf5">
+    <arc id="Gateway_1cl23yvActivity_1ldjw71_middle_split" source="Gateway_1cl23yv" target="Activity_1ldjw71_middle_split">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5234,7 +5384,35 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_0udezmd_end_joinGateway_114htf5" source="Activity_0udezmd_end_join" target="Gateway_114htf5">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Activity_055gu13Flow_1t9g41r" source="Activity_055gu13" target="Flow_1t9g41r">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_08eomqxend_p_Process_dea13ux" source="Event_08eomqx" target="end_p_Process_dea13ux">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5326,9 +5504,36 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="6520" y="160"/>
-        <position x="1345" y="160"/>
+        <position x="90" y="1345"/>
       </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_0lgmysm_end_joinGateway_149buq4" source="Event_0lgmysm_end_join" target="Gateway_149buq4">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Gateway_149buq4Flow_1e86he6" source="Gateway_149buq4" target="Flow_1e86he6">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5398,7 +5603,11 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="1070" y="3970"/>
+        <position x="1070" y="3895"/>
+        <position x="1140" y="3820"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5406,6 +5615,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Gateway_14043riEvent_0lgmysm" source="Gateway_14043ri" target="Event_0lgmysm">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_1rtrjx6_end_splitEvent_1rtrjx6" source="Event_1rtrjx6_end_split" target="Event_1rtrjx6">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5433,6 +5656,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Activity_08uuzr1_middle_splitActivity_08uuzr1_end_split" source="Activity_08uuzr1_middle_split" target="Activity_08uuzr1_end_split">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Event_1q35f80_end_splitEvent_1q35f80" source="Event_1q35f80_end_split" target="Event_1q35f80">
       <inscription>
         <text>1</text>
@@ -5447,7 +5684,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Event_000calaFlow_12dfa1r" source="Event_000cala" target="Flow_12dfa1r">
+    <arc id="Flow_0z82jt1Activity_1wekqo2" source="Flow_0z82jt1" target="Activity_1wekqo2">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5461,7 +5698,21 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Gateway_1cl23yv_midGateway_1cl23yv_s" source="Gateway_1cl23yv_mid" target="Gateway_1cl23yv_s">
+    <arc id="Flow_18okm4cActivity_1swin75" source="Flow_18okm4c" target="Activity_1swin75">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_0atar75Event_1b82ycu" source="Flow_0atar75" target="Event_1b82ycu">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5545,20 +5796,6 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Gateway_1he3wnmActivity_11ud7z5_middle_split" source="Gateway_1he3wnm" target="Activity_11ud7z5_middle_split">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="Gateway_1y4bs9kEvent_1ub2s5j" source="Gateway_1y4bs9k" target="Event_1ub2s5j">
       <inscription>
         <text>1</text>
@@ -5566,7 +5803,23 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="1840" y="2095"/>
+        <position x="1840" y="3820"/>
+        <position x="1770" y="3895"/>
+        <position x="1770" y="4570"/>
+        <position x="1700" y="4645"/>
+        <position x="1700" y="5470"/>
+        <position x="1560" y="5545"/>
+        <position x="1280" y="5620"/>
+        <position x="1210" y="5695"/>
+        <position x="1210" y="6670"/>
+        <position x="790" y="6745"/>
+        <position x="790" y="7420"/>
+        <position x="720" y="7495"/>
+        <position x="720" y="7795"/>
+        <position x="650" y="7870"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5588,6 +5841,34 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Gateway_0hid3q8Event_1lpe25r" source="Gateway_0hid3q8" target="Event_1lpe25r">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_0lgmysmEvent_0lgmysm_middle_join" source="Event_0lgmysm" target="Event_0lgmysm_middle_join">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_1vjxnxwActivity_0uhd3l6" source="Flow_1vjxnxw" target="Activity_0uhd3l6">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5699,7 +5980,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_1x1n5no_middle_splitActivity_1x1n5no_end_split" source="Activity_1x1n5no_middle_split" target="Activity_1x1n5no_end_split">
+    <arc id="Event_09bep5jFlow_043vaxw" source="Event_09bep5j" target="Flow_043vaxw">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5713,7 +5994,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Event_09bep5jFlow_043vaxw" source="Event_09bep5j" target="Flow_043vaxw">
+    <arc id="end_p_Process_dea13uxend_t" source="end_p_Process_dea13ux" target="end_t">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5805,11 +6086,12 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="3820" y="1560"/>
-        <position x="3895" y="1350"/>
-        <position x="3970" y="1350"/>
-        <position x="4045" y="1210"/>
-        <position x="4120" y="1070"/>
+        <position x="1210" y="3595"/>
+        <position x="1210" y="3820"/>
+        <position x="1140" y="3895"/>
+        <position x="1140" y="3970"/>
+        <position x="1070" y="4045"/>
+        <position x="1000" y="4120"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -5824,9 +6106,21 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics>
-        <position x="3820" y="1280"/>
-      </graphics>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_1b82ycuGateway_12r0crx" source="Event_1b82ycu" target="Gateway_12r0crx">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -5834,6 +6128,20 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Event_0tg8v5m_end_joinGateway_0kfx8ze" source="Event_0tg8v5m_end_join" target="Gateway_0kfx8ze">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_0jr24kvFlow_0atar75" source="Activity_0jr24kv" target="Flow_0atar75">
       <inscription>
         <text>1</text>
         <graphics>
@@ -5875,6 +6183,20 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Flow_0srnyxfActivity_0jl0xzd" source="Flow_0srnyxf" target="Activity_0jl0xzd">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Event_0s5nr53_end_joinGateway_0kfx8ze" source="Event_0s5nr53_end_join" target="Gateway_0kfx8ze">
       <inscription>
         <text>1</text>
@@ -5883,22 +6205,8 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="2695" y="720"/>
+        <position x="650" y="2845"/>
       </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Flow_1hevcvhActivity_08uuzr1" source="Flow_1hevcvh" target="Activity_08uuzr1">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -6045,7 +6353,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Activity_0jr24kvFlow_1wwv0si" source="Activity_0jr24kv" target="Flow_1wwv0si">
+    <arc id="Flow_0vs2b80Activity_10lkd51" source="Flow_0vs2b80" target="Activity_10lkd51">
       <inscription>
         <text>1</text>
         <graphics>
@@ -6060,20 +6368,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Flow_1sm1ekzActivity_0m0ikcf" source="Flow_1sm1ekz" target="Activity_0m0ikcf">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Activity_11ud7z5_middle_splitActivity_11ud7z5_end_split" source="Activity_11ud7z5_middle_split" target="Activity_11ud7z5_end_split">
       <inscription>
         <text>1</text>
         <graphics>
@@ -6255,7 +6549,7 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="Flow_1wwv0siActivity_0ro6m7s" source="Flow_1wwv0si" target="Activity_0ro6m7s">
+    <arc id="Activity_1xlz0ep_end_splitActivity_1xlz0ep" source="Activity_1xlz0ep_end_split" target="Activity_1xlz0ep">
       <inscription>
         <text>1</text>
         <graphics>
@@ -6297,6 +6591,34 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="Event_049crwfend_p_Process_mwoaqip" source="Event_049crwf" target="end_p_Process_mwoaqip">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_0uhd3l6Flow_0z82jt1" source="Activity_0uhd3l6" target="Flow_0z82jt1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="Flow_1wd1fxhEvent_0hkksq3" source="Flow_1wd1fxh" target="Event_0hkksq3">
       <inscription>
         <text>1</text>
@@ -6312,20 +6634,6 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="Event_1rtrjx6Flow_1iytlde" source="Event_1rtrjx6" target="Flow_1iytlde">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Event_0lgmysmGateway_1cl23yv_j" source="Event_0lgmysm" target="Gateway_1cl23yv_j">
       <inscription>
         <text>1</text>
         <graphics>
@@ -6361,33 +6669,6 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="Event_0egya30Gateway_1cl23yv_j" source="Event_0egya30" target="Gateway_1cl23yv_j">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics>
-        <position x="7720" y="510"/>
-        <position x="6820" y="510"/>
-        <position x="6745" y="580"/>
-        <position x="6595" y="580"/>
-        <position x="6520" y="650"/>
-        <position x="6445" y="720"/>
-        <position x="5995" y="720"/>
-        <position x="5920" y="790"/>
-        <position x="5620" y="790"/>
-        <position x="5545" y="860"/>
-        <position x="5470" y="1000"/>
-        <position x="1495" y="1000"/>
-      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -6444,26 +6725,18 @@ Manual editing may break compatibility.-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="8470" y="230"/>
-        <position x="8320" y="230"/>
-        <position x="8245" y="300"/>
-        <position x="8095" y="300"/>
-        <position x="8020" y="370"/>
-        <position x="7945" y="440"/>
-        <position x="7870" y="440"/>
-        <position x="7795" y="580"/>
-        <position x="7720" y="720"/>
-        <position x="7645" y="790"/>
-        <position x="6820" y="790"/>
-        <position x="6745" y="860"/>
-        <position x="6595" y="860"/>
-        <position x="6520" y="930"/>
-        <position x="5995" y="930"/>
-        <position x="5920" y="1000"/>
-        <position x="5620" y="1000"/>
-        <position x="5545" y="1140"/>
-        <position x="5470" y="1280"/>
-        <position x="4045" y="1280"/>
+        <position x="160" y="8620"/>
+        <position x="160" y="8095"/>
+        <position x="650" y="8020"/>
+        <position x="790" y="7945"/>
+        <position x="1000" y="7870"/>
+        <position x="1000" y="7495"/>
+        <position x="1070" y="7420"/>
+        <position x="1070" y="5620"/>
+        <position x="1210" y="5545"/>
+        <position x="1350" y="5470"/>
+        <position x="1350" y="4120"/>
+        <position x="1420" y="4045"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -6474,14 +6747,14 @@ Manual editing may break compatibility.-->
     <toolspecific tool="WoPeD" version="3.9.2">
       <bounds>
         <position x="11" y="33"/>
-        <dimension x="1467" y="648"/>
+        <dimension x="1467" y="638"/>
       </bounds>
-      <scale>100</scale>
+      <scale>25</scale>
       <treeWidthRight>1236</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
-      <verticalLayout>false</verticalLayout>
+      <verticalLayout>true</verticalLayout>
       <resources/>
       <simulations/>
       <partnerLinks/>
