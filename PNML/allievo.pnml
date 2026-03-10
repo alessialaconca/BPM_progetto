@@ -591,7 +591,7 @@ scelta bozza comunicato Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1ub2s5j">
@@ -609,7 +609,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1u0bbs5">
@@ -626,7 +626,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1i9b3dp">
@@ -643,7 +643,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_08uuzr1">
@@ -660,7 +660,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0ph540w">
@@ -677,7 +677,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1dg4o2i">
@@ -694,7 +694,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_049crwf">
@@ -711,7 +711,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1q35f80_middle_split">
@@ -729,7 +729,7 @@ scelta bozza comunicato Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0ph540w_middle_split">
@@ -746,7 +746,7 @@ scelta bozza comunicato Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1a6sfnr">
@@ -763,7 +763,7 @@ scelta bozza comunicato Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1ub2s5j_end_join">
@@ -781,7 +781,7 @@ ricevuta Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1q35f80">
@@ -799,7 +799,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0i42jic">
@@ -816,7 +816,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Flow_0jnwxek">
@@ -833,7 +833,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1rtrjx6">
@@ -850,7 +850,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0lgmysm_end_join">
@@ -867,7 +867,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_09bep5j">
@@ -884,7 +884,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0s5nr53_end_join">
@@ -901,7 +901,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1ybbxwj">
@@ -918,7 +918,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1xlz0ep">
@@ -935,7 +935,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0hkksq3">
@@ -952,7 +952,7 @@ scelta bozza comunicato</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0egya30">
@@ -970,7 +970,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0tg8v5m">
@@ -987,7 +987,7 @@ ricevuta</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_02du4n2">
@@ -1005,7 +1005,7 @@ di concludere corso</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0egya30_end_join">
@@ -1023,7 +1023,7 @@ ricevuta Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Flow_1e86he6">
@@ -1040,7 +1040,7 @@ ricevuta Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1xlz0ep_middle_split">
@@ -1057,7 +1057,7 @@ ricevuta Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0lgmysm">
@@ -1074,7 +1074,7 @@ ricevuta Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1q35f80_end_join">
@@ -1092,7 +1092,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1a6sfnr_end_join">
@@ -1109,7 +1109,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_16jlyv5">
@@ -1126,7 +1126,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0egxbef">
@@ -1143,7 +1143,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_09bep5j_end_join">
@@ -1160,7 +1160,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1rtrjx6_end_join">
@@ -1177,7 +1177,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1podcyt">
@@ -1194,7 +1194,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0ph540w_end_join">
@@ -1211,7 +1211,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_15bz246_middle_split">
@@ -1230,7 +1230,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_08uuzr1_middle_split">
@@ -1247,7 +1247,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1ldjw71">
@@ -1264,7 +1264,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1ldjw71_middle_split">
@@ -1281,7 +1281,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_10ryd4f">
@@ -1298,7 +1298,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1rtrjx6_middle_split">
@@ -1315,7 +1315,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_15bz246">
@@ -1334,7 +1334,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0tg8v5m_end_join">
@@ -1351,7 +1351,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_055gu13">
@@ -1368,7 +1368,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1ybbxwj_end_join">
@@ -1385,7 +1385,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_1u0bbs5_end_join">
@@ -1402,7 +1402,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_1b82ycu">
@@ -1419,7 +1419,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Event_0s5nr53">
@@ -1436,7 +1436,7 @@ scelta bozza comunicato Chosen</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_02du4n2_middle_split">
@@ -1454,7 +1454,7 @@ di concludere corso Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <transition id="Activity_0jr24kv">
@@ -1471,7 +1471,7 @@ di concludere corso Choosing</text>
       <toolspecific tool="WoPeD" version="1.0">
         <time>0</time>
         <timeUnit>1</timeUnit>
-        <orientation>2</orientation>
+        <orientation>1</orientation>
       </toolspecific>
     </transition>
     <arc id="Event_0s5nr53Event_0s5nr53_middle_join" source="Event_0s5nr53" target="Event_0s5nr53_middle_join">
@@ -2955,10 +2955,10 @@ di concludere corso Choosing</text>
     <toolspecific tool="WoPeD" version="3.9.2">
       <bounds>
         <position x="11" y="33"/>
-        <dimension x="811" y="638"/>
+        <dimension x="1467" y="638"/>
       </bounds>
       <scale>25</scale>
-      <treeWidthRight>679</treeWidthRight>
+      <treeWidthRight>1236</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
