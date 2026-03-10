@@ -27,5 +27,3 @@
 -- Coverability Graph
 
 - Conclusioni
-
-
