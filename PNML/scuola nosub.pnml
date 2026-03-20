@@ -2590,10 +2590,10 @@ Manual editing may break compatibility.-->
         <dimension x="1467" y="609"/>
       </bounds>
       <scale>100</scale>
-      <treeWidthRight>1236</treeWidthRight>
-      <overviewPanelVisible>true</overviewPanelVisible>
+      <treeWidthRight>1455</treeWidthRight>
+      <overviewPanelVisible>false</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
-      <treePanelVisible>true</treePanelVisible>
+      <treePanelVisible>false</treePanelVisible>
       <verticalLayout>true</verticalLayout>
       <resources/>
       <simulations/>
