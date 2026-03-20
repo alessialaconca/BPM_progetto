@@ -1,0 +1,229 @@
+[2026-03-20 15:03:46,003] 0  INFO GUI_LOGGER: INIT APPLICATION
+[2026-03-20 15:03:46,035] 32  INFO CORE_LOGGER: START INIT Application
+[2026-03-20 15:03:46,037] 34  INFO CONFIG_LOGGER: Setting default home directory: C:\Users\Riccardo\.WoPeD-3.8.0\nets\
+[2026-03-20 15:03:46,038] 35  INFO CONFIG_LOGGER: Loading configuration from: C:\Users\Riccardo\.WoPeD-3.8.0\WoPeDconfig.xml.
+[2026-03-20 15:03:46,222] 219  INFO CONFIG_LOGGER: Setting Locale to en_IT
+[2026-03-20 15:03:46,226] 223  INFO CONFIG_LOGGER: Setting home directory: C:\Users\Riccardo\Downloads
+[2026-03-20 15:03:46,226] 223  INFO CONFIG_LOGGER: Setting current working directory: C:\Users\Riccardo\Documents\GitHub\BPM_progetto\PNML
+[2026-03-20 15:03:46,243] 240  INFO CONFIG_LOGGER: Configuration successfully loaded.
+[2026-03-20 15:03:46,253] 250  WARN CONFIG_LOGGER: Configuration file not found: C:\Users\Riccardo\.WoPeD-3.8.0\WoPeDmetrics.xml. Using built-in settings.
+[2026-03-20 15:03:46,271] 268  INFO CONFIG_LOGGER: Configuration successfully loaded.
+[2026-03-20 15:03:46,281] 278  INFO CORE_LOGGER: Look-And-Feel set to com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2026-03-20 15:03:46,852] 849  INFO GUI_LOGGER: END  INIT Application
+[2026-03-20 15:03:47,154] 1151 DEBUG QUALANALYSIS_LOGGER: -> init() org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphFrameController
+[2026-03-20 15:03:47,162] 1159 DEBUG QUALANALYSIS_LOGGER: <- init() org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphFrameController
+[2026-03-20 15:03:47,234] 1231 DEBUG FILE_LOGGER: ##### START PNML Version (1.3.2) IMPORT #####
+[2026-03-20 15:03:47,478] 1475 DEBUG QUALANALYSIS_LOGGER: PT Handle Pairs calculated. (0 ms)
+[2026-03-20 15:03:47,478] 1475 DEBUG QUALANALYSIS_LOGGER: TP Handle Pairs calculated. (12 ms)
+[2026-03-20 15:03:47,735] 1732 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_1vc0v7m) imported
+[2026-03-20 15:03:47,736] 1733 DEBUG FILE_LOGGER:  ... Place (ID:Activity_1u0bbs5_middle_join) imported
+[2026-03-20 15:03:47,736] 1733 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_1156ggm) imported
+[2026-03-20 15:03:47,736] 1733 DEBUG FILE_LOGGER:  ... Place (ID:Activity_0ph540w_end_split) imported
+[2026-03-20 15:03:47,738] 1735 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_0kfx8ze) imported
+[2026-03-20 15:03:47,738] 1735 DEBUG FILE_LOGGER:  ... Place (ID:Event_1rtrjx6_end_split) imported
+[2026-03-20 15:03:47,738] 1735 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_14043ri) imported
+[2026-03-20 15:03:47,738] 1735 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1nyhuzq) imported
+[2026-03-20 15:03:47,739] 1736 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1sm1ekz) imported
+[2026-03-20 15:03:47,739] 1736 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_1cl23yv) imported
+[2026-03-20 15:03:47,739] 1736 DEBUG FILE_LOGGER:  ... Place (ID:Event_1a6sfnr_middle_join) imported
+[2026-03-20 15:03:47,740] 1737 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1yo57f0) imported
+[2026-03-20 15:03:47,741] 1738 DEBUG FILE_LOGGER:  ... Place (ID:Flow_0atar75) imported
+[2026-03-20 15:03:47,742] 1739 DEBUG FILE_LOGGER:  ... Place (ID:Activity_02du4n2_end_split) imported
+[2026-03-20 15:03:47,744] 1741 DEBUG FILE_LOGGER:  ... Place (ID:start_p_Process_05caeje) imported
+[2026-03-20 15:03:47,745] 1742 DEBUG FILE_LOGGER:  ... Place (ID:Flow_0tjyr4d) imported
+[2026-03-20 15:03:47,745] 1742 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_149buq4) imported
+[2026-03-20 15:03:47,745] 1742 DEBUG FILE_LOGGER:  ... Place (ID:Flow_0xyx6d1) imported
+[2026-03-20 15:03:47,745] 1742 DEBUG FILE_LOGGER:  ... Place (ID:Flow_0uk7n9c) imported
+[2026-03-20 15:03:47,746] 1743 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1cgrvik) imported
+[2026-03-20 15:03:47,746] 1743 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_0njqze4) imported
+[2026-03-20 15:03:47,746] 1743 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1ihv06c) imported
+[2026-03-20 15:03:47,747] 1744 DEBUG FILE_LOGGER:  ... Place (ID:Event_1ybbxwj_middle_join) imported
+[2026-03-20 15:03:47,747] 1744 DEBUG FILE_LOGGER:  ... Place (ID:Event_0lgmysm_middle_join) imported
+[2026-03-20 15:03:47,748] 1745 DEBUG FILE_LOGGER:  ... Place (ID:Event_0s5nr53_middle_join) imported
+[2026-03-20 15:03:47,748] 1745 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_0tjujhy) imported
+[2026-03-20 15:03:47,748] 1745 DEBUG FILE_LOGGER:  ... Place (ID:Event_0tg8v5m_middle_join) imported
+[2026-03-20 15:03:47,749] 1746 DEBUG FILE_LOGGER:  ... Place (ID:Event_1ub2s5j_middle_join) imported
+[2026-03-20 15:03:47,749] 1746 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1t9g41r) imported
+[2026-03-20 15:03:47,749] 1746 DEBUG FILE_LOGGER:  ... Place (ID:Activity_1xlz0ep_end_split) imported
+[2026-03-20 15:03:47,749] 1746 DEBUG FILE_LOGGER:  ... Place (ID:Event_0egya30_middle_join) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:Event_09bep5j_middle_join) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:end_p_Process_05caeje) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:Activity_08uuzr1_end_split) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:Event_1rtrjx6_middle_join) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_1he3wnm) imported
+[2026-03-20 15:03:47,750] 1747 DEBUG FILE_LOGGER:  ... Place (ID:Activity_1ldjw71_end_split) imported
+[2026-03-20 15:03:47,751] 1748 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_12r0crx) imported
+[2026-03-20 15:03:47,751] 1748 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_0rxssuw) imported
+[2026-03-20 15:03:47,751] 1748 DEBUG FILE_LOGGER:  ... Place (ID:Flow_1ivoej3) imported
+[2026-03-20 15:03:47,751] 1748 DEBUG FILE_LOGGER:  ... Place (ID:Event_1q35f80_end_split) imported
+[2026-03-20 15:03:47,751] 1748 DEBUG FILE_LOGGER:  ... Place (ID:Flow_05l1da8) imported
+[2026-03-20 15:03:47,752] 1749 DEBUG FILE_LOGGER:  ... Place (ID:Event_15bz246_end_split) imported
+[2026-03-20 15:03:47,753] 1750 DEBUG FILE_LOGGER:  ... Place (ID:Activity_0ph540w_middle_join) imported
+[2026-03-20 15:03:47,753] 1750 DEBUG FILE_LOGGER:  ... Place (ID:Event_1q35f80_middle_join) imported
+[2026-03-20 15:03:47,753] 1750 DEBUG FILE_LOGGER:  ... Place (ID:Gateway_1y4bs9k) imported
+[2026-03-20 15:03:47,753] 1750 DEBUG FILE_LOGGER:  ... Place (ID:Flow_0cm9c91) imported
+[2026-03-20 15:03:47,760] 1757 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0m0ikcf) imported 
+[2026-03-20 15:03:47,760] 1757 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1ub2s5j) imported 
+[2026-03-20 15:03:47,761] 1758 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1u0bbs5) imported 
+[2026-03-20 15:03:47,761] 1758 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1i9b3dp) imported 
+[2026-03-20 15:03:47,762] 1759 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_08uuzr1) imported 
+[2026-03-20 15:03:47,762] 1759 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0ph540w) imported 
+[2026-03-20 15:03:47,763] 1760 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1dg4o2i) imported 
+[2026-03-20 15:03:47,763] 1760 DEBUG FILE_LOGGER:  ... Transition (ID:Event_049crwf) imported 
+[2026-03-20 15:03:47,763] 1760 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1q35f80_middle_split) imported 
+[2026-03-20 15:03:47,764] 1761 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0ph540w_middle_split) imported 
+[2026-03-20 15:03:47,764] 1761 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1a6sfnr) imported 
+[2026-03-20 15:03:47,765] 1762 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1ub2s5j_end_join) imported 
+[2026-03-20 15:03:47,765] 1762 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1q35f80) imported 
+[2026-03-20 15:03:47,765] 1762 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0i42jic) imported 
+[2026-03-20 15:03:47,766] 1763 DEBUG FILE_LOGGER:  ... Transition (ID:Flow_0jnwxek) imported 
+[2026-03-20 15:03:47,766] 1763 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1rtrjx6) imported 
+[2026-03-20 15:03:47,767] 1764 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0lgmysm_end_join) imported 
+[2026-03-20 15:03:47,769] 1766 DEBUG FILE_LOGGER:  ... Transition (ID:Event_09bep5j) imported 
+[2026-03-20 15:03:47,769] 1766 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0s5nr53_end_join) imported 
+[2026-03-20 15:03:47,769] 1766 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1ybbxwj) imported 
+[2026-03-20 15:03:47,769] 1766 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1xlz0ep) imported 
+[2026-03-20 15:03:47,769] 1766 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0hkksq3) imported 
+[2026-03-20 15:03:47,770] 1767 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0egya30) imported 
+[2026-03-20 15:03:47,770] 1767 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0tg8v5m) imported 
+[2026-03-20 15:03:47,771] 1768 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_02du4n2) imported 
+[2026-03-20 15:03:47,771] 1768 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0egya30_end_join) imported 
+[2026-03-20 15:03:47,771] 1768 DEBUG FILE_LOGGER:  ... Transition (ID:Flow_1e86he6) imported 
+[2026-03-20 15:03:47,772] 1769 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1xlz0ep_middle_split) imported 
+[2026-03-20 15:03:47,772] 1769 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0lgmysm) imported 
+[2026-03-20 15:03:47,772] 1769 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1q35f80_end_join) imported 
+[2026-03-20 15:03:47,773] 1770 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1a6sfnr_end_join) imported 
+[2026-03-20 15:03:47,773] 1770 DEBUG FILE_LOGGER:  ... Transition (ID:Event_16jlyv5) imported 
+[2026-03-20 15:03:47,773] 1770 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0egxbef) imported 
+[2026-03-20 15:03:47,773] 1770 DEBUG FILE_LOGGER:  ... Transition (ID:Event_09bep5j_end_join) imported 
+[2026-03-20 15:03:47,773] 1770 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1rtrjx6_end_join) imported 
+[2026-03-20 15:03:47,774] 1771 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1podcyt) imported 
+[2026-03-20 15:03:47,774] 1771 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0ph540w_end_join) imported 
+[2026-03-20 15:03:47,774] 1771 DEBUG FILE_LOGGER:  ... Transition (ID:Event_15bz246_middle_split) imported 
+[2026-03-20 15:03:47,774] 1771 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_08uuzr1_middle_split) imported 
+[2026-03-20 15:03:47,775] 1772 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1ldjw71) imported 
+[2026-03-20 15:03:47,775] 1772 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1ldjw71_middle_split) imported 
+[2026-03-20 15:03:47,775] 1772 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_10ryd4f) imported 
+[2026-03-20 15:03:47,775] 1772 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1rtrjx6_middle_split) imported 
+[2026-03-20 15:03:47,776] 1773 DEBUG FILE_LOGGER:  ... Transition (ID:Event_15bz246) imported 
+[2026-03-20 15:03:47,776] 1773 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0tg8v5m_end_join) imported 
+[2026-03-20 15:03:47,776] 1773 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_055gu13) imported 
+[2026-03-20 15:03:47,776] 1773 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1ybbxwj_end_join) imported 
+[2026-03-20 15:03:47,776] 1773 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_1u0bbs5_end_join) imported 
+[2026-03-20 15:03:47,777] 1774 DEBUG FILE_LOGGER:  ... Transition (ID:Event_1b82ycu) imported 
+[2026-03-20 15:03:47,777] 1774 DEBUG FILE_LOGGER:  ... Transition (ID:Event_0s5nr53) imported 
+[2026-03-20 15:03:47,777] 1774 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_02du4n2_middle_split) imported 
+[2026-03-20 15:03:47,777] 1774 DEBUG FILE_LOGGER:  ... Transition (ID:Activity_0jr24kv) imported 
+[2026-03-20 15:03:47,787] 1784 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0s5nr53Event_0s5nr53_middle_join) Event_0s5nr53 -> Event_0s5nr53_middle_join 
+[2026-03-20 15:03:47,788] 1785 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1156ggmEvent_1ybbxwj) Gateway_1156ggm -> Event_1ybbxwj 
+[2026-03-20 15:03:47,788] 1785 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1rtrjx6_middle_splitEvent_1rtrjx6_end_split) Event_1rtrjx6_middle_split -> Event_1rtrjx6_end_split 
+[2026-03-20 15:03:47,788] 1785 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_16jlyv5Flow_0cm9c91) Event_16jlyv5 -> Flow_0cm9c91 
+[2026-03-20 15:03:47,789] 1786 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_0kfx8zeActivity_1u0bbs5) Gateway_0kfx8ze -> Activity_1u0bbs5 
+[2026-03-20 15:03:47,789] 1786 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1rtrjx6Event_1rtrjx6_middle_join) Event_1rtrjx6 -> Event_1rtrjx6_middle_join 
+[2026-03-20 15:03:47,790] 1787 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ybbxwjEvent_1ybbxwj_middle_join) Event_1ybbxwj -> Event_1ybbxwj_middle_join 
+[2026-03-20 15:03:47,790] 1787 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_12r0crxActivity_02du4n2_middle_split) Gateway_12r0crx -> Activity_02du4n2_middle_split 
+[2026-03-20 15:03:47,790] 1787 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0i42jicFlow_1ivoej3) Activity_0i42jic -> Flow_1ivoej3 
+[2026-03-20 15:03:47,790] 1787 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1ldjw71_end_splitActivity_1ldjw71) Activity_1ldjw71_end_split -> Activity_1ldjw71 
+[2026-03-20 15:03:47,791] 1788 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1ihv06cActivity_1i9b3dp) Flow_1ihv06c -> Activity_1i9b3dp 
+[2026-03-20 15:03:47,791] 1788 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0tg8v5m_middle_joinEvent_0tg8v5m_end_join) Event_0tg8v5m_middle_join -> Event_0tg8v5m_end_join 
+[2026-03-20 15:03:47,791] 1788 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_02du4n2_middle_splitActivity_02du4n2_end_split) Activity_02du4n2_middle_split -> Activity_02du4n2_end_split 
+[2026-03-20 15:03:47,791] 1788 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1podcytFlow_1yo57f0) Activity_1podcyt -> Flow_1yo57f0 
+[2026-03-20 15:03:47,792] 1789 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ybbxwj_end_joinGateway_0njqze4) Event_1ybbxwj_end_join -> Gateway_0njqze4 
+[2026-03-20 15:03:47,792] 1789 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1cl23yvEvent_1rtrjx6_middle_split) Gateway_1cl23yv -> Event_1rtrjx6_middle_split 
+[2026-03-20 15:03:47,792] 1789 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0egya30Event_0egya30_middle_join) Event_0egya30 -> Event_0egya30_middle_join 
+[2026-03-20 15:03:47,793] 1790 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1ldjw71Gateway_1y4bs9k) Activity_1ldjw71 -> Gateway_1y4bs9k 
+[2026-03-20 15:03:47,793] 1790 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0jnwxekGateway_1he3wnm) Flow_0jnwxek -> Gateway_1he3wnm 
+[2026-03-20 15:03:47,793] 1790 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_08uuzr1_end_splitActivity_08uuzr1) Activity_08uuzr1_end_split -> Activity_08uuzr1 
+[2026-03-20 15:03:47,793] 1790 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0s5nr53_middle_joinEvent_0s5nr53_end_join) Event_0s5nr53_middle_join -> Event_0s5nr53_end_join 
+[2026-03-20 15:03:47,794] 1791 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1he3wnmActivity_08uuzr1_middle_split) Gateway_1he3wnm -> Activity_08uuzr1_middle_split 
+[2026-03-20 15:03:47,794] 1791 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1y4bs9kEvent_0egya30) Gateway_1y4bs9k -> Event_0egya30 
+[2026-03-20 15:03:47,798] 1795 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0egya30_end_joinGateway_149buq4) Event_0egya30_end_join -> Gateway_149buq4 
+[2026-03-20 15:03:47,798] 1795 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_02du4n2Flow_0xyx6d1) Activity_02du4n2 -> Flow_0xyx6d1 
+[2026-03-20 15:03:47,798] 1795 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1xlz0ep_middle_splitActivity_1xlz0ep_end_split) Activity_1xlz0ep_middle_split -> Activity_1xlz0ep_end_split 
+[2026-03-20 15:03:47,799] 1796 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1rtrjx6_end_joinGateway_0rxssuw) Event_1rtrjx6_end_join -> Gateway_0rxssuw 
+[2026-03-20 15:03:47,800] 1797 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0ph540w_end_splitActivity_0ph540w) Activity_0ph540w_end_split -> Activity_0ph540w 
+[2026-03-20 15:03:47,801] 1798 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0egya30_middle_joinEvent_0egya30_end_join) Event_0egya30_middle_join -> Event_0egya30_end_join 
+[2026-03-20 15:03:47,802] 1799 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1cl23yvActivity_1ldjw71_middle_split) Gateway_1cl23yv -> Activity_1ldjw71_middle_split 
+[2026-03-20 15:03:47,802] 1799 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_055gu13Flow_1t9g41r) Activity_055gu13 -> Flow_1t9g41r 
+[2026-03-20 15:03:47,802] 1799 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0xyx6d1Event_049crwf) Flow_0xyx6d1 -> Event_049crwf 
+[2026-03-20 15:03:47,803] 1800 DEBUG FILE_LOGGER:  ... Arc created: (ID:start_p_Process_05caejeEvent_1dg4o2i) start_p_Process_05caeje -> Event_1dg4o2i 
+[2026-03-20 15:03:47,803] 1800 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0tjyr4dActivity_0jr24kv) Flow_0tjyr4d -> Activity_0jr24kv 
+[2026-03-20 15:03:47,803] 1800 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1u0bbs5_end_joinGateway_0tjujhy) Activity_1u0bbs5_end_join -> Gateway_0tjujhy 
+[2026-03-20 15:03:47,804] 1801 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_05l1da8Activity_10ryd4f) Flow_05l1da8 -> Activity_10ryd4f 
+[2026-03-20 15:03:47,804] 1801 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0cm9c91Activity_0i42jic) Flow_0cm9c91 -> Activity_0i42jic 
+[2026-03-20 15:03:47,804] 1801 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0lgmysm_middle_joinEvent_0lgmysm_end_join) Event_0lgmysm_middle_join -> Event_0lgmysm_end_join 
+[2026-03-20 15:03:47,804] 1801 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0ph540w_end_joinGateway_14043ri) Activity_0ph540w_end_join -> Gateway_14043ri 
+[2026-03-20 15:03:47,805] 1802 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_049crwfend_p_Process_05caeje) Event_049crwf -> end_p_Process_05caeje 
+[2026-03-20 15:03:47,805] 1802 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0ph540wActivity_0ph540w_middle_join) Activity_0ph540w -> Activity_0ph540w_middle_join 
+[2026-03-20 15:03:47,805] 1802 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0lgmysm_end_joinGateway_149buq4) Event_0lgmysm_end_join -> Gateway_149buq4 
+[2026-03-20 15:03:47,805] 1802 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_09bep5j_middle_joinEvent_09bep5j_end_join) Event_09bep5j_middle_join -> Event_09bep5j_end_join 
+[2026-03-20 15:03:47,806] 1803 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_149buq4Flow_1e86he6) Gateway_149buq4 -> Flow_1e86he6 
+[2026-03-20 15:03:47,806] 1803 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1a6sfnr_end_joinGateway_0tjujhy) Event_1a6sfnr_end_join -> Gateway_0tjujhy 
+[2026-03-20 15:03:47,806] 1803 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_14043riEvent_0lgmysm) Gateway_14043ri -> Event_0lgmysm 
+[2026-03-20 15:03:47,807] 1804 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1rtrjx6_end_splitEvent_1rtrjx6) Event_1rtrjx6_end_split -> Event_1rtrjx6 
+[2026-03-20 15:03:47,807] 1804 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_08uuzr1_middle_splitActivity_08uuzr1_end_split) Activity_08uuzr1_middle_split -> Activity_08uuzr1_end_split 
+[2026-03-20 15:03:47,807] 1804 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1q35f80_end_splitEvent_1q35f80) Event_1q35f80_end_split -> Event_1q35f80 
+[2026-03-20 15:03:47,808] 1805 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0atar75Event_1b82ycu) Flow_0atar75 -> Event_1b82ycu 
+[2026-03-20 15:03:47,808] 1805 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_10ryd4fFlow_0tjyr4d) Activity_10ryd4f -> Flow_0tjyr4d 
+[2026-03-20 15:03:47,808] 1805 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0hkksq3Gateway_1vc0v7m) Event_0hkksq3 -> Gateway_1vc0v7m 
+[2026-03-20 15:03:47,809] 1806 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_09bep5jEvent_09bep5j_middle_join) Event_09bep5j -> Event_09bep5j_middle_join 
+[2026-03-20 15:03:47,809] 1806 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_08uuzr1Flow_1cgrvik) Activity_08uuzr1 -> Flow_1cgrvik 
+[2026-03-20 15:03:47,809] 1806 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1y4bs9kEvent_1ub2s5j) Gateway_1y4bs9k -> Event_1ub2s5j 
+[2026-03-20 15:03:47,810] 1807 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_15bz246Flow_1ihv06c) Event_15bz246 -> Flow_1ihv06c 
+[2026-03-20 15:03:47,810] 1807 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0lgmysmEvent_0lgmysm_middle_join) Event_0lgmysm -> Event_0lgmysm_middle_join 
+[2026-03-20 15:03:47,811] 1808 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_15bz246_middle_splitEvent_15bz246_end_split) Event_15bz246_middle_split -> Event_15bz246_end_split 
+[2026-03-20 15:03:47,811] 1808 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1a6sfnrEvent_1a6sfnr_middle_join) Event_1a6sfnr -> Event_1a6sfnr_middle_join 
+[2026-03-20 15:03:47,811] 1808 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1he3wnmActivity_1xlz0ep_middle_split) Gateway_1he3wnm -> Activity_1xlz0ep_middle_split 
+[2026-03-20 15:03:47,812] 1809 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1nyhuzqEvent_16jlyv5) Flow_1nyhuzq -> Event_16jlyv5 
+[2026-03-20 15:03:47,812] 1809 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_0njqze4Event_0hkksq3) Gateway_0njqze4 -> Event_0hkksq3 
+[2026-03-20 15:03:47,812] 1809 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_02du4n2_end_splitActivity_02du4n2) Activity_02du4n2_end_split -> Activity_02du4n2 
+[2026-03-20 15:03:47,812] 1809 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1cgrvikEvent_1a6sfnr) Flow_1cgrvik -> Event_1a6sfnr 
+[2026-03-20 15:03:47,813] 1810 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1dg4o2iFlow_1sm1ekz) Event_1dg4o2i -> Flow_1sm1ekz 
+[2026-03-20 15:03:47,813] 1810 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1b82ycuGateway_12r0crx) Event_1b82ycu -> Gateway_12r0crx 
+[2026-03-20 15:03:47,813] 1810 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0tg8v5m_end_joinGateway_0kfx8ze) Event_0tg8v5m_end_join -> Gateway_0kfx8ze 
+[2026-03-20 15:03:47,814] 1811 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1156ggmEvent_0s5nr53) Gateway_1156ggm -> Event_0s5nr53 
+[2026-03-20 15:03:47,814] 1811 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0jr24kvFlow_0atar75) Activity_0jr24kv -> Flow_0atar75 
+[2026-03-20 15:03:47,814] 1811 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1i9b3dpFlow_0uk7n9c) Activity_1i9b3dp -> Flow_0uk7n9c 
+[2026-03-20 15:03:47,815] 1812 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ybbxwj_middle_joinEvent_1ybbxwj_end_join) Event_1ybbxwj_middle_join -> Event_1ybbxwj_end_join 
+[2026-03-20 15:03:47,815] 1812 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0s5nr53_end_joinGateway_0kfx8ze) Event_0s5nr53_end_join -> Gateway_0kfx8ze 
+[2026-03-20 15:03:47,815] 1812 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1q35f80Event_1q35f80_middle_join) Event_1q35f80 -> Event_1q35f80_middle_join 
+[2026-03-20 15:03:47,816] 1813 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1xlz0epGateway_1156ggm) Activity_1xlz0ep -> Gateway_1156ggm 
+[2026-03-20 15:03:47,816] 1813 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_0tg8v5mEvent_0tg8v5m_middle_join) Event_0tg8v5m -> Event_0tg8v5m_middle_join 
+[2026-03-20 15:03:47,816] 1813 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_0uk7n9cActivity_0egxbef) Flow_0uk7n9c -> Activity_0egxbef 
+[2026-03-20 15:03:47,817] 1814 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0ph540w_middle_splitActivity_0ph540w_end_split) Activity_0ph540w_middle_split -> Activity_0ph540w_end_split 
+[2026-03-20 15:03:47,817] 1814 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_0tjujhyFlow_0jnwxek) Gateway_0tjujhy -> Flow_0jnwxek 
+[2026-03-20 15:03:47,817] 1814 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1sm1ekzActivity_0m0ikcf) Flow_1sm1ekz -> Activity_0m0ikcf 
+[2026-03-20 15:03:47,817] 1814 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1vc0v7mEvent_1q35f80_middle_split) Gateway_1vc0v7m -> Event_1q35f80_middle_split 
+[2026-03-20 15:03:47,818] 1815 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1q35f80_end_joinGateway_0njqze4) Event_1q35f80_end_join -> Gateway_0njqze4 
+[2026-03-20 15:03:47,818] 1815 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1ivoej3Event_09bep5j) Flow_1ivoej3 -> Event_09bep5j 
+[2026-03-20 15:03:47,818] 1815 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0m0ikcfFlow_1nyhuzq) Activity_0m0ikcf -> Flow_1nyhuzq 
+[2026-03-20 15:03:47,819] 1816 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ub2s5j_middle_joinEvent_1ub2s5j_end_join) Event_1ub2s5j_middle_join -> Event_1ub2s5j_end_join 
+[2026-03-20 15:03:47,819] 1816 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ub2s5jEvent_1ub2s5j_middle_join) Event_1ub2s5j -> Event_1ub2s5j_middle_join 
+[2026-03-20 15:03:47,819] 1816 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1yo57f0Activity_055gu13) Flow_1yo57f0 -> Activity_055gu13 
+[2026-03-20 15:03:47,819] 1816 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1t9g41rEvent_0tg8v5m) Flow_1t9g41r -> Event_0tg8v5m 
+[2026-03-20 15:03:47,820] 1817 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_09bep5j_end_joinGateway_14043ri) Event_09bep5j_end_join -> Gateway_14043ri 
+[2026-03-20 15:03:47,820] 1817 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_12r0crxActivity_0ph540w_middle_split) Gateway_12r0crx -> Activity_0ph540w_middle_split 
+[2026-03-20 15:03:47,820] 1817 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_0rxssuwActivity_1podcyt) Gateway_0rxssuw -> Activity_1podcyt 
+[2026-03-20 15:03:47,820] 1817 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1ub2s5j_end_joinGateway_0rxssuw) Event_1ub2s5j_end_join -> Gateway_0rxssuw 
+[2026-03-20 15:03:47,821] 1818 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1xlz0ep_end_splitActivity_1xlz0ep) Activity_1xlz0ep_end_split -> Activity_1xlz0ep 
+[2026-03-20 15:03:47,821] 1818 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_15bz246_end_splitEvent_15bz246) Event_15bz246_end_split -> Event_15bz246 
+[2026-03-20 15:03:47,821] 1818 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1q35f80_middle_splitEvent_1q35f80_end_split) Event_1q35f80_middle_split -> Event_1q35f80_end_split 
+[2026-03-20 15:03:47,821] 1818 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0ph540w_middle_joinActivity_0ph540w_end_join) Activity_0ph540w_middle_join -> Activity_0ph540w_end_join 
+[2026-03-20 15:03:47,821] 1818 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1u0bbs5_middle_joinActivity_1u0bbs5_end_join) Activity_1u0bbs5_middle_join -> Activity_1u0bbs5_end_join 
+[2026-03-20 15:03:47,822] 1819 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1q35f80_middle_joinEvent_1q35f80_end_join) Event_1q35f80_middle_join -> Event_1q35f80_end_join 
+[2026-03-20 15:03:47,822] 1819 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1rtrjx6_middle_joinEvent_1rtrjx6_end_join) Event_1rtrjx6_middle_join -> Event_1rtrjx6_end_join 
+[2026-03-20 15:03:47,822] 1819 DEBUG FILE_LOGGER:  ... Arc created: (ID:Flow_1e86he6Gateway_1cl23yv) Flow_1e86he6 -> Gateway_1cl23yv 
+[2026-03-20 15:03:47,822] 1819 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1u0bbs5Activity_1u0bbs5_middle_join) Activity_1u0bbs5 -> Activity_1u0bbs5_middle_join 
+[2026-03-20 15:03:47,823] 1820 DEBUG FILE_LOGGER:  ... Arc created: (ID:Gateway_1vc0v7mEvent_15bz246_middle_split) Gateway_1vc0v7m -> Event_15bz246_middle_split 
+[2026-03-20 15:03:47,823] 1820 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_1ldjw71_middle_splitActivity_1ldjw71_end_split) Activity_1ldjw71_middle_split -> Activity_1ldjw71_end_split 
+[2026-03-20 15:03:47,823] 1820 DEBUG FILE_LOGGER:  ... Arc created: (ID:Event_1a6sfnr_middle_joinEvent_1a6sfnr_end_join) Event_1a6sfnr_middle_join -> Event_1a6sfnr_end_join 
+[2026-03-20 15:03:47,823] 1820 DEBUG FILE_LOGGER:  ... Arc created: (ID:Activity_0egxbefFlow_05l1da8) Activity_0egxbef -> Flow_05l1da8 
+[2026-03-20 15:03:48,717] 2714 DEBUG EDITOR_LOGGER: Net updated. (5 ms)
+[2026-03-20 15:03:48,723] 2720 DEBUG EDITOR_LOGGER: Net updated. (4 ms)
+[2026-03-20 15:03:48,724] 2721 DEBUG FILE_LOGGER: ##### END PNML IMPORT Version (1.3.2) ##### (1490 ms)
+[2026-03-20 15:03:48,724] 2721  INFO CONFIG_LOGGER: Setting current working directory: C:\Users\Riccardo\Documents\GitHub\BPM_progetto\PNML
+[2026-03-20 15:03:48,725] 2722  INFO FILE_LOGGER: Petrinet loaded from file: C:\Users\Riccardo\Documents\GitHub\BPM_progetto\PNML\allievo.pnml
+[2026-03-20 15:04:09,116] 23113  INFO CONFIG_LOGGER: Setting current working directory: C:\Users\Riccardo\Desktop
+[2026-03-20 15:04:09,153] 23150  INFO CONFIG_LOGGER: Setting current working directory: null
+[2026-03-20 15:04:13,868] 27865  INFO CONFIG_LOGGER: Configuration successfully saved to: C:\Users\Riccardo\.WoPeD-3.8.0\WoPeDconfig.xml
+[2026-03-20 15:04:13,869] 27866  INFO GUI_LOGGER: EXIT WoPeD
