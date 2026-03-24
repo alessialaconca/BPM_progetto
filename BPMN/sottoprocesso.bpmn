@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="4327945" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:process id="Process_0c27atz" name="sottoprocesso" isExecutable="true">
+    <bpmn:subProcess id="Activity_11x7ahl">
+      <bpmn:startEvent id="Event_1v70rqu">
+        <bpmn:outgoing>Flow_09k97du</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_0uhd3l6" name="Controlla lista maestri del corso">
+        <bpmn:incoming>Flow_09k97du</bpmn:incoming>
+        <bpmn:outgoing>Flow_0z82jt1</bpmn:outgoing>
+        <bpmn:property id="Property_1jpe2xe" name="__targetRef_placeholder" />
+        <bpmn:dataInputAssociation id="DataInputAssociation_0h4jbcz">
+          <bpmn:sourceRef>DataStoreReference_1npp4jw</bpmn:sourceRef>
+          <bpmn:targetRef>Property_1jpe2xe</bpmn:targetRef>
+        </bpmn:dataInputAssociation>
+      </bpmn:task>
+      <bpmn:dataStoreReference id="DataStoreReference_1npp4jw" name="Lista maestri" />
+      <bpmn:endEvent id="Event_091oflc">
+        <bpmn:incoming>Flow_1bhl1zr</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:task id="Activity_1wekqo2" name="Verifica disponibilità maestri">
+        <bpmn:incoming>Flow_0z82jt1</bpmn:incoming>
+        <bpmn:outgoing>Flow_18okm4c</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_1swin75" name="Scelta del maestro">
+        <bpmn:incoming>Flow_18okm4c</bpmn:incoming>
+        <bpmn:outgoing>Flow_0srnyxf</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_0jl0xzd" name="Invia contatto allievo a maestro">
+        <bpmn:incoming>Flow_0srnyxf</bpmn:incoming>
+        <bpmn:outgoing>Flow_1bhl1zr</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:sequenceFlow id="Flow_09k97du" sourceRef="Event_1v70rqu" targetRef="Activity_0uhd3l6" />
+      <bpmn:sequenceFlow id="Flow_0z82jt1" sourceRef="Activity_0uhd3l6" targetRef="Activity_1wekqo2" />
+      <bpmn:sequenceFlow id="Flow_1bhl1zr" sourceRef="Activity_0jl0xzd" targetRef="Event_091oflc" />
+      <bpmn:sequenceFlow id="Flow_18okm4c" sourceRef="Activity_1wekqo2" targetRef="Activity_1swin75" />
+      <bpmn:sequenceFlow id="Flow_0srnyxf" sourceRef="Activity_1swin75" targetRef="Activity_0jl0xzd" />
+    </bpmn:subProcess>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0c27atz">
+      <bpmndi:BPMNShape id="BPMNShape_1pti2r9" bpmnElement="Activity_11x7ahl" isExpanded="true">
+        <dc:Bounds x="180" y="80" width="740" height="280" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_02thaxn" bpmnElement="Event_1v70rqu">
+        <dc:Bounds x="207" y="184" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0sz7szh" bpmnElement="Activity_0uhd3l6">
+        <dc:Bounds x="295" y="162" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0dafx4d" bpmnElement="DataStoreReference_1npp4jw">
+        <dc:Bounds x="320" y="287" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="314" y="344" width="63" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_07xstdf" bpmnElement="Event_091oflc">
+        <dc:Bounds x="862" y="184" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1yd03sp" bpmnElement="Activity_1wekqo2">
+        <dc:Bounds x="439" y="162" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1c0el84" bpmnElement="Activity_1swin75">
+        <dc:Bounds x="584" y="162" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1j6xx98" bpmnElement="Activity_0jl0xzd">
+        <dc:Bounds x="723" y="162" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_1nxyh1z" bpmnElement="Flow_09k97du">
+        <di:waypoint x="243" y="202" />
+        <di:waypoint x="295" y="202" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_1ha3igx" bpmnElement="Flow_0z82jt1">
+        <di:waypoint x="395" y="202" />
+        <di:waypoint x="439" y="202" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_1gnmpat" bpmnElement="Flow_1bhl1zr">
+        <di:waypoint x="823" y="202" />
+        <di:waypoint x="862" y="202" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_1o77ob6" bpmnElement="Flow_18okm4c">
+        <di:waypoint x="539" y="202" />
+        <di:waypoint x="584" y="202" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_0p00cec" bpmnElement="Flow_0srnyxf">
+        <di:waypoint x="684" y="202" />
+        <di:waypoint x="723" y="202" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_07jdg1q" bpmnElement="DataInputAssociation_0h4jbcz">
+        <di:waypoint x="345" y="287" />
+        <di:waypoint x="345" y="242" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

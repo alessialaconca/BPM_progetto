@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with Workflow PetriNet Designer Version 3.9.2 (woped.org)
+Manual editing may break compatibility.-->
+<pnml>
+  <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="">
+    <place id="Flow_09k97du">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="580" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="555" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="end_p_Process_0c27atz">
+      <name>
+        <text>End</text>
+        <graphics>
+          <offset x="1890" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1866" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="start_p_Process_0c27atz">
+      <name>
+        <text>Start</text>
+        <graphics>
+          <offset x="310" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="288" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+    </place>
+    <place id="Flow_18okm4c">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1110" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1094" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_1bhl1zr">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1630" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1611" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_0z82jt1">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="830" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="813" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="Flow_0srnyxf">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1390" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1371" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <transition id="Activity_0jl0xzd">
+      <name>
+        <text>Invia contatto allievo a maestro</text>
+        <graphics>
+          <offset x="1530" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1507" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1swin75">
+      <name>
+        <text>Scelta del maestro</text>
+        <graphics>
+          <offset x="1260" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1236" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Event_1v70rqu">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="460" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="438" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Event_091oflc">
+      <name>
+        <text/>
+        <graphics>
+          <offset x="1740" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1716" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_0uhd3l6">
+      <name>
+        <text>Controlla lista maestri del corso</text>
+        <graphics>
+          <offset x="690" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="672" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="Activity_1wekqo2">
+      <name>
+        <text>Verifica disponibilità maestri</text>
+        <graphics>
+          <offset x="970" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="953" y="393"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <arc id="Activity_1swin75Flow_0srnyxf" source="Activity_1swin75" target="Flow_0srnyxf">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_091oflcend_p_Process_0c27atz" source="Event_091oflc" target="end_p_Process_0c27atz">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_0z82jt1Activity_1wekqo2" source="Flow_0z82jt1" target="Activity_1wekqo2">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_18okm4cActivity_1swin75" source="Flow_18okm4c" target="Activity_1swin75">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="start_p_Process_0c27atzEvent_1v70rqu" source="start_p_Process_0c27atz" target="Event_1v70rqu">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_0uhd3l6Flow_0z82jt1" source="Activity_0uhd3l6" target="Flow_0z82jt1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_1wekqo2Flow_18okm4c" source="Activity_1wekqo2" target="Flow_18okm4c">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Event_1v70rquFlow_09k97du" source="Event_1v70rqu" target="Flow_09k97du">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_09k97duActivity_0uhd3l6" source="Flow_09k97du" target="Activity_0uhd3l6">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_0srnyxfActivity_0jl0xzd" source="Flow_0srnyxf" target="Activity_0jl0xzd">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Activity_0jl0xzdFlow_1bhl1zr" source="Activity_0jl0xzd" target="Flow_1bhl1zr">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="Flow_1bhl1zrEvent_091oflc" source="Flow_1bhl1zr" target="Event_091oflc">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <toolspecific tool="WoPeD" version="3.9.2">
+      <bounds>
+        <position x="11" y="33"/>
+        <dimension x="1467" y="609"/>
+      </bounds>
+      <scale>100</scale>
+      <treeWidthRight>1061</treeWidthRight>
+      <overviewPanelVisible>false</overviewPanelVisible>
+      <treeHeightOverview>2</treeHeightOverview>
+      <treePanelVisible>false</treePanelVisible>
+      <verticalLayout>false</verticalLayout>
+      <resources/>
+      <simulations/>
+      <partnerLinks/>
+      <variables/>
+    </toolspecific>
+  </net>
+</pnml>
