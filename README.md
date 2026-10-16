@@ -15,7 +15,7 @@ Il progetto si concentra sulla progettazione di processi aziendali astratti (BPM
 * Diagrammi di orchestrazione per ciascun singolo partecipante.
 * Specifiche astratte iniziali modellate in formati BPMN/EPC.
 
-###2. Trasformazione dei Modelli
+### 2. Trasformazione dei Modelli
 
 * Mappatura sistematica dai modelli di collaborazione e orchestrazione BPMN a Reti di Workflow (WfN / Reti di Petri).
 * Documentazione e giustificazione delle regole di trasformazione applicate.
